@@ -1,14 +1,25 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
+import Words from "./components/pages/Words";
+import NotFound from "./components/pages/NotFound";
 
 import "./css/App.css";
 
 const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/kelimeler" component={Words} />
+          <Route component={NotFound} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

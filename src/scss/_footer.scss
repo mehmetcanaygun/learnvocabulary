@@ -1,12 +1,12 @@
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   height: $footer-height;
   background-color: $color-2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   div {
     display: flex;
@@ -14,7 +14,7 @@
     align-items: center;
     position: relative;
 
-    button {
+    a {
       position: absolute;
       top: -30px;
       width: 80px;
@@ -24,9 +24,16 @@
       border-radius: 50%;
       background-color: $color-2;
       color: $color-3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    button:active {
+    a:hover {
+      cursor: pointer;
+    }
+
+    a:active {
       color: $color-1;
     }
   }

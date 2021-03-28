@@ -16,10 +16,19 @@ ul {
   list-style-type: none;
 }
 
+a:focus,
 button:focus,
 input:focus,
 textarea:focus {
   outline: none;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .f-center {
@@ -53,7 +62,7 @@ textarea:focus {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -61,8 +70,8 @@ textarea:focus {
   background-color: #d5a021;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .footer div {
@@ -78,7 +87,7 @@ textarea:focus {
   position: relative;
 }
 
-.footer div button {
+.footer div a {
   position: absolute;
   top: -30px;
   width: 80px;
@@ -88,9 +97,22 @@ textarea:focus {
   border-radius: 50%;
   background-color: #d5a021;
   color: #ede7d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.footer div button:active {
+.footer div a:hover {
+  cursor: pointer;
+}
+
+.footer div a:active {
   color: #4b4237;
 }
 /*# sourceMappingURL=App.css.map */
