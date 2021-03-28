@@ -1,0 +1,45 @@
+.home-page {
+  height: calc(100vh - 160px);
+
+  .home-container {
+    padding: 0 $px;
+
+    .info {
+      margin: 20px 0 60px 0;
+      padding: $px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: rgba($color-3, 0.4);
+      border-radius: 8px;
+
+      i {
+        margin-right: 10px;
+        color: $color-2;
+      }
+    }
+
+    .start-btn-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        width: 240px;
+        height: 240px;
+        border: none;
+        border-radius: 50%;
+        background-color: $color-2;
+        color: $color-3;
+        font-size: 100px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+
+      button:active {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

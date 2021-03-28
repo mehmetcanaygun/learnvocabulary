@@ -115,4 +115,66 @@ a {
 .footer div a:active {
   color: #4b4237;
 }
+
+.home-page {
+  height: calc(100vh - 160px);
+}
+
+.home-page .home-container {
+  padding: 0 12px;
+}
+
+.home-page .home-container .info {
+  margin: 20px 0 60px 0;
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(237, 231, 217, 0.4);
+  border-radius: 8px;
+}
+
+.home-page .home-container .info i {
+  margin-right: 10px;
+  color: #d5a021;
+}
+
+.home-page .home-container .start-btn-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-page .home-container .start-btn-container button {
+  width: 240px;
+  height: 240px;
+  border: none;
+  border-radius: 50%;
+  background-color: #d5a021;
+  color: #ede7d9;
+  font-size: 100px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.home-page .home-container .start-btn-container button:active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 /*# sourceMappingURL=App.css.map */
