@@ -2,11 +2,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div>
-        <button>Hepsi</button>
-        <button>Bildiklerim</button>
-        <button>Bilmediklerim</button>
+        <button>
+          <i className="fas fa-book"></i>
+        </button>
+      </div>
+      <div>
+        <button>
+          <i className="far fa-smile"></i>
+        </button>
+      </div>
+      <div>
+        <button>
+          <i className="far fa-frown"></i>
+        </button>
       </div>
     </footer>
   );

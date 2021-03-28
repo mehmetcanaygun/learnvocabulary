@@ -1,0 +1,33 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  background-color: $color-2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    button {
+      position: absolute;
+      top: -30px;
+      width: 80px;
+      height: 80px;
+      font-size: 48px;
+      border: none;
+      border-radius: 50%;
+      background-color: $color-2;
+      color: $color-3;
+    }
+
+    button:active {
+      color: $color-1;
+    }
+  }
+}
