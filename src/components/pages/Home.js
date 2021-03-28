@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { getWords } from "../../redux/actions";
 
-const Home = () => {
+const Home = ({ getWords, words }) => {
+  useEffect(() => {
+    getWords();
+  }, [getWords]);
+
   return (
     <div className="home-page">
       <div className="home-container">
@@ -22,4 +29,12 @@ const Home = () => {
   );
 };
 
-export default Home;
+Home.propTypes = {
+  words: PropTypes.object.isRequired,
+};
+
+const mapStateToProps = (state) => ({
+  words: state.words,
+});
+
+export default connect(mapStateToProps, { getWords })(Home);

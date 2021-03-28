@@ -1,0 +1,32 @@
+[
+  {
+    "word": "Example",
+    "type": "noun",
+    "translation": "Örnek",
+    "sentence": "I'll give you an example."
+  },
+  {
+    "word": "Car",
+    "type": "noun",
+    "translation": "Araba",
+    "sentence": "My car is broken."
+  },
+  {
+    "word": "Fast",
+    "type": "adjective",
+    "translation": "Hızlı",
+    "sentence": "A rabbit can be very fast when it runs."
+  },
+  {
+    "word": "Buy",
+    "type": "verb",
+    "translation": "Satın almak",
+    "sentence": "I'm going to buy the TV that I saw yesterday at the mall."
+  },
+  {
+    "word": "clearly",
+    "type": "adverb",
+    "translation": "Açıkça",
+    "sentence": "I'll give you an example."
+  }
+]
