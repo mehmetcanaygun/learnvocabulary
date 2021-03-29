@@ -1,7 +1,8 @@
-import { GET_WORDS } from "../actionTypes";
+import { GET_WORDS, START } from "../actionTypes";
 
 const initialState = {
-  words: null,
+  words: [],
+  started: false,
 };
 
 export default function wordsReducer(state = initialState, action) {
@@ -12,6 +13,11 @@ export default function wordsReducer(state = initialState, action) {
       return {
         ...state,
         words: payload,
+      };
+    case START:
+      return {
+        ...state,
+        started: payload,
       };
     default:
       return state;
