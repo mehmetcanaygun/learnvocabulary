@@ -23,6 +23,7 @@ textarea:focus {
   outline: none;
 }
 
+li,
 input,
 textarea,
 button,
@@ -55,7 +56,7 @@ a {
   font-size: 36px;
   font-weight: bold;
   background-color: #d5a021;
-  color: #ede7d9;
+  color: #eee;
   text-shadow: 0px 3px #000;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
@@ -96,7 +97,7 @@ a {
   border: none;
   border-radius: 50%;
   background-color: #d5a021;
-  color: #ede7d9;
+  color: #eee;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,7 +137,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(237, 231, 217, 0.4);
+  background-color: rgba(238, 238, 238, 0.4);
   border-radius: 8px;
 }
 
@@ -159,13 +160,13 @@ a {
 }
 
 .home-page .home-container .start-btn-container button {
-  width: 240px;
-  height: 240px;
+  width: 180px;
+  height: 180px;
   border: none;
   border-radius: 50%;
-  background-color: #d5a021;
-  color: #ede7d9;
-  font-size: 100px;
+  background-image: linear-gradient(45deg, #bf8f1e, #dfac30);
+  color: #eee;
+  font-size: 72px;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
@@ -173,8 +174,161 @@ a {
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
+.home-page .home-container .start-btn-container button i {
+  text-shadow: 2px 2px 8px rgba(41, 41, 41, 0.4), 1px 1px 4px rgba(22, 22, 22, 0.5);
+}
+
 .home-page .home-container .start-btn-container button:active {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-list {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 100vw;
+  height: calc(100vh - 160px);
+  overflow-x: hidden;
+}
+
+.card-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  top: 0;
+  -webkit-transition: left 0.4s ease-in-out;
+  transition: left 0.4s ease-in-out;
+}
+
+.card-list ul .card {
+  width: 100%;
+  height: 200px;
+  margin: 20px 10px 0 10px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.card-list ul .card .front,
+.card-list ul .card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  -webkit-transition: visibility 0.6s ease-in-out, opacity 0.25s ease-in-out 0.2s, -webkit-transform 0.6s ease-in-out;
+  transition: visibility 0.6s ease-in-out, opacity 0.25s ease-in-out 0.2s, -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, visibility 0.6s ease-in-out, opacity 0.25s ease-in-out 0.2s;
+  transition: transform 0.6s ease-in-out, visibility 0.6s ease-in-out, opacity 0.25s ease-in-out 0.2s, -webkit-transform 0.6s ease-in-out;
+  -webkit-box-shadow: 0px 6px 8px rgba(51, 51, 51, 0.3);
+          box-shadow: 0px 6px 8px rgba(51, 51, 51, 0.3);
+}
+
+.card-list ul .card .front {
+  background-image: linear-gradient(45deg, #bf8f1e, #dfac30);
+  color: #eee;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card-list ul .card .back {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: linear-gradient(45deg, #e1e1e1, #fbfbfb);
+  color: #4b4237;
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card-list ul .card .back .type,
+.card-list ul .card .back .translation {
+  margin-bottom: 10px;
+}
+
+.card-list ul .card.flipped .front {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-list ul .card.flipped .back {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+.card-list .buttons-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100vw;
+  padding: 12px;
+}
+
+.card-list .buttons-container p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-list .buttons-container div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.card-list .buttons-container div button {
+  border: 0;
+  font-size: 24px;
+  padding: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #eee;
+  -webkit-box-shadow: 0px 2px #d5d5d5;
+          box-shadow: 0px 2px #d5d5d5;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.card-list .buttons-container div button:first-child {
+  color: green;
+}
+
+.card-list .buttons-container div button:last-child {
+  color: red;
+}
+
+.card-list .buttons-container div button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 /*# sourceMappingURL=App.css.map */

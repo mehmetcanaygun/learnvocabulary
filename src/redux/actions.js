@@ -1,6 +1,6 @@
 import axios from "axios";
 import { shuffle } from "../utils";
-import { GET_WORDS, START } from "./actionTypes";
+import { GET_WORDS, SAVE_UNKNOWN, START } from "./actionTypes";
 
 // Get Words
 export const getWords = () => async (dispatch) => {
@@ -17,5 +17,13 @@ export const start = () => (dispatch) => {
   dispatch({
     type: START,
     payload: true,
+  });
+};
+
+// Save Unknown Word
+export const saveUnknown = (word) => (dispatch) => {
+  dispatch({
+    type: SAVE_UNKNOWN,
+    payload: word,
   });
 };

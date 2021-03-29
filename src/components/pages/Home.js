@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getWords, start } from "../../redux/actions";
+import CardList from "../card/CardList";
 
 const Home = ({ getWords, words, start, started }) => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const Home = ({ getWords, words, start, started }) => {
   return (
     <div className="home-page">
       {started ? (
-        <h1>Başladı</h1>
+        <CardList words={words} length={words.length} />
       ) : (
         <div className="home-container">
           <div className="info">
