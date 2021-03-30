@@ -1,7 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 
-const Words = () => {
+const Words = ({ knownWords, unknownWords }) => {
   const [showKnown, setShowKnown] = useState(true);
+
+  useEffect(() => {
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className="words-page">
       <div className="words-container">
@@ -22,82 +29,26 @@ const Words = () => {
         <div className="words">
           <div className={showKnown ? "known active" : "known"}>
             <ul>
-              <li>
-                Bildiğim Kelime 1{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bildiğim Kelime 2{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bildiğim Kelime 3{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bildiğim Kelime 4{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bildiğim Kelime 5{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bildiğim Kelime 6{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
+              {knownWords.map((w, index) => (
+                <li key={index}>
+                  {w.word}{" "}
+                  <button>
+                    <i className="fas fa-pen"></i>
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
           <div className={!showKnown ? "unknown active" : "unknown"}>
             <ul>
-              <li>
-                Bilmediğim Kelime 1{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bilmediğim Kelime 2{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bilmediğim Kelime 3{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bilmediğim Kelime 4{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bilmediğim Kelime 5{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
-              <li>
-                Bilmediğim Kelime 6{" "}
-                <button>
-                  <i className="fas fa-pen"></i>
-                </button>
-              </li>
+              {unknownWords.map((w, index) => (
+                <li key={index}>
+                  {w.word}{" "}
+                  <button>
+                    <i className="fas fa-pen"></i>
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -106,4 +57,14 @@ const Words = () => {
   );
 };
 
-export default Words;
+Words.propTypes = {
+  knownWords: PropTypes.array.isRequired,
+  unknownWords: PropTypes.array.isRequired,
+};
+
+const mapStateToProps = (state) => ({
+  knownWords: state.words.knownWords,
+  unknownWords: state.words.unknownWords,
+});
+
+export default connect(mapStateToProps, {})(Words);
