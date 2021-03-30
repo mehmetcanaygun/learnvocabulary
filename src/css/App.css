@@ -210,7 +210,7 @@ a {
 
 .card-list ul .card {
   width: 100%;
-  height: 200px;
+  padding: 100px 0;
   margin: 20px 10px 0 10px;
   position: relative;
   cursor: pointer;
@@ -330,5 +330,78 @@ a {
 .card-list .buttons-container div button:active {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
+}
+
+.words-page {
+  padding: 20px 12px 100px 12px;
+}
+
+.words-page .words-container .titles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.words-page .words-container .titles button {
+  border: 0;
+  font-size: 16px;
+  padding: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #eee;
+  -webkit-box-shadow: 0px 2px #d5d5d5;
+          box-shadow: 0px 2px #d5d5d5;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.words-page .words-container .titles button.active {
+  background-color: #d5a021;
+  color: #eee;
+}
+
+.words-page .words-container .words .known,
+.words-page .words-container .words .unknown {
+  display: none;
+}
+
+.words-page .words-container .words .known ul li,
+.words-page .words-container .words .unknown ul li {
+  padding: 6px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.words-page .words-container .words .known ul li:nth-child(even),
+.words-page .words-container .words .unknown ul li:nth-child(even) {
+  background-color: #eee;
+}
+
+.words-page .words-container .words .known ul li:nth-child(even) button,
+.words-page .words-container .words .unknown ul li:nth-child(even) button {
+  background-color: #fff;
+}
+
+.words-page .words-container .words .known ul li button,
+.words-page .words-container .words .unknown ul li button {
+  border: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #eee;
+  color: #4b4237;
+  cursor: pointer;
+}
+
+.words-page .words-container .words .known.active,
+.words-page .words-container .words .unknown.active {
+  display: block;
 }
 /*# sourceMappingURL=App.css.map */

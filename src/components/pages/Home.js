@@ -7,12 +7,14 @@ import CardList from "../card/CardList";
 const Home = ({ getWords, words, start, started }) => {
   useEffect(() => {
     getWords();
-  }, [getWords]);
+
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <div className="home-page">
       {started ? (
-        <CardList words={words} length={words.length} />
+        <CardList words={words} />
       ) : (
         <div className="home-container">
           <div className="info">

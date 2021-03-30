@@ -1,9 +1,10 @@
-import { GET_WORDS, START, SAVE_UNKNOWN } from "../actionTypes";
+import { GET_WORDS, START, SAVE_UNKNOWN, SAVE_KNOWN } from "../actionTypes";
 
 const initialState = {
   words: [],
   started: false,
   unknownWords: [],
+  knownWords: [],
 };
 
 export default function wordsReducer(state = initialState, action) {
@@ -24,6 +25,11 @@ export default function wordsReducer(state = initialState, action) {
       return {
         ...state,
         unknownWords: [...state.unknownWords, payload],
+      };
+    case SAVE_KNOWN:
+      return {
+        ...state,
+        knownWords: [...state.knownWords, payload],
       };
     default:
       return state;
