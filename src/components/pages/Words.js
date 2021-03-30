@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import { excludeKnownWords } from "../../redux/actions";
 
-const Words = ({ knownWords, unknownWords }) => {
+const Words = ({ knownWords, unknownWords, excludeKnownWords }) => {
   const [showKnown, setShowKnown] = useState(true);
 
   useEffect(() => {
+    excludeKnownWords();
+
     // eslint-disable-next-line
   }, []);
 
@@ -60,6 +63,7 @@ const Words = ({ knownWords, unknownWords }) => {
 Words.propTypes = {
   knownWords: PropTypes.array.isRequired,
   unknownWords: PropTypes.array.isRequired,
+  excludeKnownWords: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({
@@ -67,4 +71,4 @@ const mapStateToProps = (state) => ({
   unknownWords: state.words.unknownWords,
 });
 
-export default connect(mapStateToProps, {})(Words);
+export default connect(mapStateToProps, { excludeKnownWords })(Words);

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
@@ -8,10 +9,15 @@ import NotFound from "./components/pages/NotFound";
 // Redux
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import { getWords } from "./redux/actions";
 
 import "./css/App.css";
 
 const App = () => {
+  useEffect(() => {
+    store.dispatch(getWords());
+  }, []);
+
   return (
     <Provider store={store}>
       <Router>

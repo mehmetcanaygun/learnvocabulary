@@ -1,4 +1,10 @@
-import { GET_WORDS, START, SAVE_UNKNOWN, SAVE_KNOWN } from "../actionTypes";
+import {
+  GET_WORDS,
+  START,
+  SAVE_UNKNOWN,
+  SAVE_KNOWN,
+  EXCLUDE_KNOWN_WORDS,
+} from "../actionTypes";
 
 const initialState = {
   words: [],
@@ -30,6 +36,11 @@ export default function wordsReducer(state = initialState, action) {
       return {
         ...state,
         knownWords: [...state.knownWords, payload],
+      };
+    case EXCLUDE_KNOWN_WORDS:
+      return {
+        ...state,
+        words: state.words.filter((w) => !state.knownWords.includes(w)),
       };
     default:
       return state;

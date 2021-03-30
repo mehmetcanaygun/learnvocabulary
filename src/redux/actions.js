@@ -1,6 +1,12 @@
 import axios from "axios";
 import { shuffle } from "../utils";
-import { GET_WORDS, START, SAVE_UNKNOWN, SAVE_KNOWN } from "./actionTypes";
+import {
+  GET_WORDS,
+  START,
+  SAVE_UNKNOWN,
+  SAVE_KNOWN,
+  EXCLUDE_KNOWN_WORDS,
+} from "./actionTypes";
 
 // Get Words
 export const getWords = () => async (dispatch) => {
@@ -33,5 +39,12 @@ export const saveKnown = (word) => (dispatch) => {
   dispatch({
     type: SAVE_KNOWN,
     payload: word,
+  });
+};
+
+// Exclude Known Words
+export const excludeKnownWords = () => (dispatch) => {
+  dispatch({
+    type: EXCLUDE_KNOWN_WORDS,
   });
 };
