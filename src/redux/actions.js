@@ -6,6 +6,10 @@ import {
   SAVE_UNKNOWN,
   SAVE_KNOWN,
   EXCLUDE_KNOWN_WORDS,
+  REMOVE_KNOWN,
+  REMOVE_UNKNOWN,
+  ADD_TO_WORDS,
+  REMOVE_FROM_WORDS,
 } from "./actionTypes";
 
 // Get Words
@@ -46,5 +50,37 @@ export const saveKnown = (word) => (dispatch) => {
 export const excludeKnownWords = () => (dispatch) => {
   dispatch({
     type: EXCLUDE_KNOWN_WORDS,
+  });
+};
+
+// Remove Known Word
+export const removeKnownWord = (word) => (dispatch) => {
+  dispatch({
+    type: REMOVE_KNOWN,
+    payload: word,
+  });
+};
+
+// Remove Unknown Word
+export const removeUnknownWord = (word) => (dispatch) => {
+  dispatch({
+    type: REMOVE_UNKNOWN,
+    payload: word,
+  });
+};
+
+// Add to words when word is moved from known to unknown
+export const addToWords = (word) => (dispatch) => {
+  dispatch({
+    type: ADD_TO_WORDS,
+    payload: word,
+  });
+};
+
+// Remove from words when word is moved from unknown to known
+export const removeFromWords = (word) => (dispatch) => {
+  dispatch({
+    type: REMOVE_FROM_WORDS,
+    payload: word,
   });
 };

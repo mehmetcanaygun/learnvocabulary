@@ -91,6 +91,23 @@
     width: 100vw;
     padding: $px;
 
+    .info {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 14px;
+      margin-bottom: 8px;
+      padding: 6px;
+      border-radius: 6px;
+      background-color: rgba($color-2, 0.4);
+
+      p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
     p {
       margin-bottom: 20px;
       font-size: 18px;
@@ -113,17 +130,50 @@
         transition: transform 0.2s;
 
         &:first-child {
-          color: green;
+          color: $color-success;
         }
 
         &:last-child {
-          color: red;
+          color: $color-danger;
         }
       }
 
       button:active {
         transform: scale(0.9);
       }
+    }
+  }
+
+  .result-container {
+    padding: 20px $px;
+
+    .again-btn,
+    .words-link,
+    .reset-btn {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      border: 0;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      box-shadow: 0px 2px darken($color-3, 10);
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .again-btn {
+      background-color: $color-2;
+      color: $color-3;
+    }
+
+    .words-link {
+      background-color: $color-3;
+    }
+
+    .reset-btn {
+      background-color: $color-danger;
+      color: $color-3;
     }
   }
 }

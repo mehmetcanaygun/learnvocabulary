@@ -1,10 +1,17 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import Card from "./Card";
 import { connect } from "react-redux";
 import { saveKnown, saveUnknown } from "../../redux/actions";
 
-const CardList = ({ words, saveKnown, saveUnknown }) => {
+const CardList = ({
+  words,
+  saveKnown,
+  saveUnknown,
+  knownWords,
+  unknownWords,
+}) => {
   const [index, setIndex] = useState(0);
 
   const addToKnown = () => {
@@ -29,8 +36,14 @@ const CardList = ({ words, saveKnown, saveUnknown }) => {
           <Card key={index} word={word} />
         ))}
       </ul>
-      {index < words.length && (
+      {index < words.length ? (
         <div className="buttons-container">
+          {unknownWords.includes(words[index]) && (
+            <div className="info">
+              <i className="fas fa-info-circle"></i>
+              <p>Bu kelimeyi daha önce "bilmiyorum" olarak işaretlemiştin.</p>
+            </div>
+          )}
           <p>Bu kelimeyi biliyor musun?</p>
           <div>
             <button onClick={() => addToKnown()}>
@@ -41,6 +54,20 @@ const CardList = ({ words, saveKnown, saveUnknown }) => {
             </button>
           </div>
         </div>
+      ) : (
+        <div className="result-container">
+          {unknownWords.length > 0 && (
+            <button className="again-btn">
+              Bilmediğin kelimeleri tekrarla
+            </button>
+          )}
+          <Link to="/kelimeler" className="words-link">
+            Bildiğin ya da bilemediğin kelimelerin listesine göz at
+          </Link>
+          <button className="reset-btn">
+            İlerlemeni sıfırla ve baştan başla
+          </button>
+        </div>
       )}
     </div>
   );
@@ -50,6 +77,13 @@ CardList.propTypes = {
   words: PropTypes.array.isRequired,
   saveKnown: PropTypes.func.isRequired,
   saveUnknown: PropTypes.func.isRequired,
+  knownWords: PropTypes.array.isRequired,
+  unknownWords: PropTypes.array.isRequired,
 };
 
-export default connect(null, { saveKnown, saveUnknown })(CardList);
+const mapStateToProps = (state) => ({
+  knownWords: state.words.knownWords,
+  unknownWords: state.words.unknownWords,
+});
+
+export default connect(mapStateToProps, { saveKnown, saveUnknown })(CardList);

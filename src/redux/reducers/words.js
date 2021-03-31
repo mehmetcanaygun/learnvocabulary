@@ -4,6 +4,10 @@ import {
   SAVE_UNKNOWN,
   SAVE_KNOWN,
   EXCLUDE_KNOWN_WORDS,
+  REMOVE_KNOWN,
+  REMOVE_UNKNOWN,
+  ADD_TO_WORDS,
+  REMOVE_FROM_WORDS,
 } from "../actionTypes";
 
 const initialState = {
@@ -28,34 +32,49 @@ export default function wordsReducer(state = initialState, action) {
         started: payload,
       };
     case SAVE_UNKNOWN:
-      // Prevent duplicates
-      if (!state.unknownWords.includes(payload)) {
-        return {
-          ...state,
-          unknownWords: [...state.unknownWords, payload],
-        };
+      // Check for duplicate
+      if (state.unknownWords.filter((w) => w.id === payload.id).length > 0) {
+        return state;
       }
       return {
         ...state,
-        unknownWords: [...state.unknownWords],
+        unknownWords: [...state.unknownWords, payload],
+        knownWords: state.knownWords.filter((w) => w.id !== payload.id),
       };
     case SAVE_KNOWN:
-      // If the word was unknown before, remove it from unknown list
-      if (state.unknownWords.includes(payload)) {
-        return {
-          ...state,
-          knownWords: [...state.knownWords, payload],
-          unknownWords: state.unknownWords.filter((w) => w !== payload),
-        };
+      // Check for duplicate
+      if (state.knownWords.filter((w) => w.id === payload.id).length > 0) {
+        return state;
       }
       return {
         ...state,
         knownWords: [...state.knownWords, payload],
+        unknownWords: state.unknownWords.filter((w) => w.id !== payload.id),
       };
     case EXCLUDE_KNOWN_WORDS:
       return {
         ...state,
         words: state.words.filter((w) => !state.knownWords.includes(w)),
+      };
+    case REMOVE_KNOWN:
+      return {
+        ...state,
+        knownWords: state.knownWords.filter((w) => w.id !== payload.id),
+      };
+    case REMOVE_UNKNOWN:
+      return {
+        ...state,
+        unknownWords: state.unknownWords.filter((w) => w.id !== payload.id),
+      };
+    case ADD_TO_WORDS:
+      return {
+        ...state,
+        words: [...state.words, payload],
+      };
+    case REMOVE_FROM_WORDS:
+      return {
+        ...state,
+        words: state.words.filter((w) => w.id !== payload.id),
       };
     default:
       return state;
