@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import Card from "./Card";
 import { connect } from "react-redux";
-import { saveKnown, saveUnknown } from "../../redux/actions";
+import { saveKnown, saveUnknown, reset } from "../../redux/actions";
 
 const CardList = ({
   words,
@@ -11,6 +11,7 @@ const CardList = ({
   saveUnknown,
   knownWords,
   unknownWords,
+  reset,
 }) => {
   const [index, setIndex] = useState(0);
 
@@ -64,7 +65,13 @@ const CardList = ({
           <Link to="/kelimeler" className="words-link">
             Bildiğin ya da bilemediğin kelimelerin listesine göz at
           </Link>
-          <button className="reset-btn">
+          <button
+            className="reset-btn"
+            onClick={() => {
+              reset();
+              setIndex(0);
+            }}
+          >
             İlerlemeni sıfırla ve baştan başla
           </button>
         </div>
@@ -79,6 +86,7 @@ CardList.propTypes = {
   saveUnknown: PropTypes.func.isRequired,
   knownWords: PropTypes.array.isRequired,
   unknownWords: PropTypes.array.isRequired,
+  reset: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({
@@ -86,4 +94,6 @@ const mapStateToProps = (state) => ({
   unknownWords: state.words.unknownWords,
 });
 
-export default connect(mapStateToProps, { saveKnown, saveUnknown })(CardList);
+export default connect(mapStateToProps, { saveKnown, saveUnknown, reset })(
+  CardList
+);

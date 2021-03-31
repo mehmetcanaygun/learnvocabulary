@@ -66,19 +66,6 @@ const Words = ({
           >
             Google Çeviri'yi Aç
           </a>
-          {/* <button
-            className="edit-btn remove"
-            onClick={() => {
-              if (currentWord.known) {
-                removeKnownWord(currentWord);
-              } else {
-                removeUnknownWord(currentWord);
-              }
-              alert("Kelime bu listeden kaldırıldı.");
-            }}
-          >
-            Bu Listeden Kaldır
-          </button> */}
           <button
             className="edit-btn move"
             onClick={() => {

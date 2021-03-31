@@ -10,6 +10,7 @@ import {
   REMOVE_UNKNOWN,
   ADD_TO_WORDS,
   REMOVE_FROM_WORDS,
+  RESET,
 } from "./actionTypes";
 
 // Get Words
@@ -82,5 +83,14 @@ export const removeFromWords = (word) => (dispatch) => {
   dispatch({
     type: REMOVE_FROM_WORDS,
     payload: word,
+  });
+};
+
+// Reset
+export const reset = () => (dispatch) => {
+  dispatch(getWords());
+
+  dispatch({
+    type: RESET,
   });
 };

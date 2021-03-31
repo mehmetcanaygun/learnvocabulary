@@ -8,6 +8,7 @@ import {
   REMOVE_UNKNOWN,
   ADD_TO_WORDS,
   REMOVE_FROM_WORDS,
+  RESET,
 } from "../actionTypes";
 
 const initialState = {
@@ -75,6 +76,13 @@ export default function wordsReducer(state = initialState, action) {
       return {
         ...state,
         words: state.words.filter((w) => w.id !== payload.id),
+      };
+    case RESET:
+      return {
+        ...state,
+        started: false,
+        knownWords: [],
+        unknownWords: [],
       };
     default:
       return state;
