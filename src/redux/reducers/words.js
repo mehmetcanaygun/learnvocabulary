@@ -28,11 +28,26 @@ export default function wordsReducer(state = initialState, action) {
         started: payload,
       };
     case SAVE_UNKNOWN:
+      // Prevent duplicates
+      if (!state.unknownWords.includes(payload)) {
+        return {
+          ...state,
+          unknownWords: [...state.unknownWords, payload],
+        };
+      }
       return {
         ...state,
-        unknownWords: [...state.unknownWords, payload],
+        unknownWords: [...state.unknownWords],
       };
     case SAVE_KNOWN:
+      // If the word was unknown before, remove it from unknown list
+      if (state.unknownWords.includes(payload)) {
+        return {
+          ...state,
+          knownWords: [...state.knownWords, payload],
+          unknownWords: state.unknownWords.filter((w) => w !== payload),
+        };
+      }
       return {
         ...state,
         knownWords: [...state.knownWords, payload],
