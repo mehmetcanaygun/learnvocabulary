@@ -11,6 +11,7 @@ import {
   ADD_TO_WORDS,
   REMOVE_FROM_WORDS,
   RESET,
+  SET_ACTIVE_LINK,
 } from "./actionTypes";
 
 // Get Words
@@ -92,5 +93,13 @@ export const reset = () => (dispatch) => {
 
   dispatch({
     type: RESET,
+  });
+};
+
+// Set Active Link
+export const setActiveLink = () => (dispatch) => {
+  dispatch({
+    type: SET_ACTIVE_LINK,
+    payload: window.location.pathname,
   });
 };

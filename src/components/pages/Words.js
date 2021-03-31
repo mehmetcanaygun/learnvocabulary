@@ -9,6 +9,7 @@ import {
   saveUnknown,
   addToWords,
   removeFromWords,
+  setActiveLink,
 } from "../../redux/actions";
 
 const Words = ({
@@ -21,6 +22,7 @@ const Words = ({
   saveUnknown,
   addToWords,
   removeFromWords,
+  setActiveLink,
 }) => {
   const [showKnown, setShowKnown] = useState(true);
   const [modalActive, setModalActive] = useState(false);
@@ -33,6 +35,7 @@ const Words = ({
 
   useEffect(() => {
     excludeKnownWords();
+    setActiveLink();
 
     // eslint-disable-next-line
   }, []);
@@ -176,6 +179,7 @@ Words.propTypes = {
   saveUnknown: PropTypes.func.isRequired,
   addToWords: PropTypes.func.isRequired,
   removeFromWords: PropTypes.func.isRequired,
+  setActiveLink: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({
@@ -191,4 +195,5 @@ export default connect(mapStateToProps, {
   saveUnknown,
   addToWords,
   removeFromWords,
+  setActiveLink,
 })(Words);

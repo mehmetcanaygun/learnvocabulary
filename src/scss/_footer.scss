@@ -27,14 +27,26 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: font-size 0.1s linear;
+    }
+
+    a.active {
+      font-size: 28px;
+    }
+
+    a.active::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 2px solid $color-3;
     }
 
     a:hover {
       cursor: pointer;
-    }
-
-    a:active {
-      color: $color-1;
     }
   }
 }

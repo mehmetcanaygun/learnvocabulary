@@ -9,6 +9,7 @@ import {
   ADD_TO_WORDS,
   REMOVE_FROM_WORDS,
   RESET,
+  SET_ACTIVE_LINK,
 } from "../actionTypes";
 
 const initialState = {
@@ -16,6 +17,7 @@ const initialState = {
   started: false,
   unknownWords: [],
   knownWords: [],
+  activeLink: "",
 };
 
 export default function wordsReducer(state = initialState, action) {
@@ -83,6 +85,11 @@ export default function wordsReducer(state = initialState, action) {
         started: false,
         knownWords: [],
         unknownWords: [],
+      };
+    case SET_ACTIVE_LINK:
+      return {
+        ...state,
+        activeLink: payload,
       };
     default:
       return state;

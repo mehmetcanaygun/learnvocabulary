@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { start } from "../../redux/actions";
+import { setActiveLink, start } from "../../redux/actions";
 import CardList from "../card/CardList";
 
-const Home = ({ words, start, started }) => {
+const Home = ({ words, start, started, setActiveLink }) => {
+  useEffect(() => {
+    setActiveLink();
+
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className="home-page">
       {started ? (
@@ -34,6 +40,7 @@ Home.propTypes = {
   words: PropTypes.array.isRequired,
   start: PropTypes.func.isRequired,
   started: PropTypes.bool,
+  setActiveLink: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({
@@ -41,4 +48,4 @@ const mapStateToProps = (state) => ({
   started: state.words.started,
 });
 
-export default connect(mapStateToProps, { start })(Home);
+export default connect(mapStateToProps, { start, setActiveLink })(Home);
