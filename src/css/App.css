@@ -454,8 +454,25 @@ a {
 }
 
 .words-page .word-modal h1 {
+  width: 100%;
   position: relative;
   margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.words-page .word-modal h1 span i.fa-check {
+  font-size: 24px;
+  color: #66b348;
+}
+
+.words-page .word-modal h1 span i.fa-times {
+  font-size: 24px;
+  color: #bd3434;
 }
 
 .words-page .word-modal h1::after {

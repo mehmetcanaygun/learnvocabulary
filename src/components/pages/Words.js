@@ -51,7 +51,14 @@ const Words = ({
         >
           <i className="fas fa-times"></i>
         </button>
-        <h1 className="word">{currentWord.word}</h1>
+        <h1 className="word">
+          {currentWord.word}{" "}
+          <span>
+            <i
+              className={currentWord.known ? "fas fa-check" : "fas fa-times"}
+            ></i>
+          </span>
+        </h1>
         <p className="type">
           <b>Tür:</b> {currentWord.type}
         </p>
@@ -88,6 +95,11 @@ const Words = ({
                   translation: currentWord.translation,
                   sentence: currentWord.sentence,
                 });
+
+                setCurrentWord({
+                  ...currentWord,
+                  known: false,
+                });
               } else {
                 removeUnknownWord(currentWord);
                 saveKnown({
@@ -103,6 +115,11 @@ const Words = ({
                   type: currentWord.type,
                   translation: currentWord.translation,
                   sentence: currentWord.sentence,
+                });
+
+                setCurrentWord({
+                  ...currentWord,
+                  known: true,
                 });
               }
             }}
