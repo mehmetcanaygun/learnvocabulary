@@ -33,6 +33,12 @@ const Words = ({
     sentence: "",
   });
 
+  if (modalActive) {
+    document.body.style.overflowY = "hidden";
+  } else {
+    document.body.style.overflowY = "visible";
+  }
+
   useEffect(() => {
     excludeKnownWords();
     setActiveLink();
@@ -42,7 +48,10 @@ const Words = ({
 
   return (
     <div className="words-page">
-      <div className={modalActive ? "word-modal active" : "word-modal"}>
+      <div
+        className={modalActive ? "word-modal active" : "word-modal"}
+        style={{ top: `${window.scrollY}px` }}
+      >
         <button
           className="close-btn"
           onClick={() => {
