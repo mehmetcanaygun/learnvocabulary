@@ -249,7 +249,7 @@ a {
 .card-list ul .card .front {
   background-image: linear-gradient(45deg, #bf8f1e, #dfac30);
   color: #eee;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
@@ -297,10 +297,10 @@ a {
 
 .card-list .buttons-container {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   width: 100vw;
-  padding: 12px;
+  padding: 0 12px 80px 12px;
 }
 
 .card-list .buttons-container .info {
