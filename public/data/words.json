@@ -1,37 +1,492 @@
 [
   {
     "id": 0,
-    "word": "Example",
+    "word": "indulgence",
     "type": "noun",
-    "translation": "Örnek",
-    "sentence": "I'll give you an example."
+    "translation": "hoşgörü, şımartma",
+    "sentence": "For our anniversary we allowed ourselves the indulgence of an elegant dinner at our favourite restaurant."
   },
   {
     "id": 1,
-    "word": "Car",
-    "type": "noun",
-    "translation": "Araba",
-    "sentence": "My car is broken."
+    "word": "elaborate",
+    "type": "verb | adjective",
+    "translation": "(v) ayrıntılandırmak, detaya girmek - (adj) incelikli, gösterişli",
+    "sentence": "They had already decided to elaborate their defence plan and were able to apply it successfully before the enemies tried to invade the country."
   },
   {
     "id": 2,
-    "word": "Fast",
-    "type": "adjective",
-    "translation": "Hızlı",
-    "sentence": "A rabbit can be very fast when it runs."
+    "word": "salutation",
+    "type": "noun",
+    "translation": "selamlama",
+    "sentence": "I realized that friendship was over when Gail ignored my salutation and walked past me in the hall."
   },
   {
     "id": 3,
-    "word": "Buy",
-    "type": "verb",
-    "translation": "Satın almak",
-    "sentence": "I'm going to buy the TV that I saw yesterday at the mall."
+    "word": "negligent",
+    "type": "adjective",
+    "translation": "ihmalkar",
+    "sentence": "Rick failed to keep an eye on his young daughter, and the jury found him negligent."
   },
   {
     "id": 4,
-    "word": "clearly",
+    "word": "congestion",
+    "type": "noun",
+    "translation": "sıkışıklık, tıkanıklık",
+    "sentence": "Because of traffic congestion in İstanbul, engineers started to think of an alternative way to transportation."
+  },
+  {
+    "id": 5,
+    "word": "evaporation",
+    "type": "noun",
+    "translation": "buharlaşma",
+    "sentence": "If you water your garden during the hottest hours of the day, evaporation will reduce the amount of liquid the plants receive."
+  },
+  {
+    "id": 6,
+    "word": "inflame",
+    "type": "verb",
+    "translation": "iltihaplandırmak, alevlendirmek, kızdırmak",
+    "sentence": "Her words made everybody in the meeting really inflamed nevertheless she attended the other meeting again."
+  },
+  {
+    "id": 7,
+    "word": "sparingly",
     "type": "adverb",
-    "translation": "Açıkça",
-    "sentence": "I'll explaint the situation clearly."
+    "translation": "tutumlu bir şekilde",
+    "sentence": "Use salt sparingly unless you want to increase your risk of having high blood pressure."
+  },
+  {
+    "id": 8,
+    "word": "miserly",
+    "type": "adjective",
+    "translation": "pinti, cimri",
+    "sentence": "The miserly billionaire complained about paying two dollars for a cheeseburger."
+  },
+  {
+    "id": 9,
+    "word": "flimsy",
+    "type": "adjective",
+    "translation": "derme çatma, dayanıksız, uydurma",
+    "sentence": "The judge was displeased with the lawyer, because he kept on interrupting the proceedings with one flimsy argument after another."
+  },
+  {
+    "id": 10,
+    "word": "rejoice",
+    "type": "verb",
+    "translation": "sevinmek, sevindirmek",
+    "sentence": "The children will rejoice after they open their holiday gifts."
+  },
+  {
+    "id": 11,
+    "word": "substantially",
+    "type": "adverb",
+    "translation": "büyük ölçüde",
+    "sentence": "Beef exports from Britain have decreased substantially since the mad cow disease appeared a few years ago."
+  },
+  {
+    "id": 12,
+    "word": "devotion",
+    "type": "noun",
+    "translation": "fedakarlık, teslimiyet, bağlılık",
+    "sentence": "Some people believe marriage is the perfect way to show devotion to the one you love."
+  },
+  {
+    "id": 13,
+    "word": "urge",
+    "type": "noun | verb",
+    "translation": "(noun) dürtü - (verb) ısrar etmek",
+    "sentence": "He urged us to accept his offer."
+  },
+  {
+    "id": 14,
+    "word": "inconvenient",
+    "type": "adjective",
+    "translation": "zahmetli, rahatsızlık verici",
+    "sentence": "Not wanting to be inconvenient, I decided to stay at a hotel when visiting relatives."
+  },
+  {
+    "id": 15,
+    "word": "tactless",
+    "type": "adjective",
+    "translation": "kaba, düşüncesiz, patavatsız",
+    "sentence": "She should know the importance of being considerate and not tactless when dealing with guests."
+  },
+  {
+    "id": 16,
+    "word": "timidly",
+    "type": "adverb",
+    "translation": "utangaç bir şekilde",
+    "sentence": "He tried to talk to the blonde girl timidly but she said just nothing."
+  },
+  {
+    "id": 17,
+    "word": "interfere",
+    "type": "verb",
+    "translation": "karışmak, burnunu sokmak",
+    "sentence": "I'm fed up with of him interfering in my love life."
+  },
+  {
+    "id": 18,
+    "word": "cremate",
+    "type": "verb",
+    "translation": "ölü yakmak",
+    "sentence": "While some religions are accepting to creamate, other never tolerate this."
+  },
+  {
+    "id": 19,
+    "word": "sprain",
+    "type": "verb",
+    "translation": "burkmak, incitmek",
+    "sentence": "Most people sprain their ankle when playing a sport or missing a step when they walk."
+  },
+  {
+    "id": 20,
+    "word": "seize",
+    "type": "verb",
+    "translation": "tutmak, kavramak",
+    "sentence": "She seized my arm and pulled me towards her."
+  },
+  {
+    "id": 21,
+    "word": "prospect",
+    "type": "noun",
+    "translation": "olasılık, ihtimal, umut",
+    "sentence": "Is there any prospect of the weather improving?"
+  },
+  {
+    "id": 22,
+    "word": "vessel",
+    "type": "noun",
+    "translation": "gemi, tekne",
+    "sentence": "A cargo vessel, bound for Athens, sank in the Mediterranean without a trace."
+  },
+  {
+    "id": 23,
+    "word": "virtually",
+    "type": "adverb",
+    "translation": "hemen hemen, neredeyse, sanal olarak",
+    "sentence": "They have virtually finished their food, wait for a while please."
+  },
+  {
+    "id": 24,
+    "word": "bewilder",
+    "type": "verb",
+    "translation": "hayret uyandırmak, afallatmak",
+    "sentence": "But what bewilders me is that instead of providing a real solution, the local authority simple forces the schools to close."
+  },
+  {
+    "id": 25,
+    "word": "perplex",
+    "type": "verb",
+    "translation": "kafası karışmak",
+    "sentence": "His apparent willingness to gample on auctioning his property is perplexing friends and delighting some of his foes."
+  },
+  {
+    "id": 26,
+    "word": "entail",
+    "type": "verb",
+    "translation": "kapsamak, gerektirmek",
+    "sentence": "A new computer system entails lots of complex codes."
+  },
+  {
+    "id": 27,
+    "word": "enigma",
+    "type": "noun",
+    "translation": "muamma, gizem",
+    "sentence": "The incident we had one week ago was a definite enigma and no one knows anything about it."
+  },
+  {
+    "id": 28,
+    "word": "enlist",
+    "type": "verb",
+    "translation": "askere almak, askere yazılmak",
+    "sentence": "As soon as he finished high school, he enlisted in the army."
+  },
+  {
+    "id": 29,
+    "word": "indiscriminately",
+    "type": "adverb",
+    "translation": "rastgele, planlanmamış bir şekilde",
+    "sentence": "The gunman fired indiscriminately into the crows."
+  },
+  {
+    "id": 30,
+    "word": "reign",
+    "type": "verb",
+    "translation": "hüküm sürmek",
+    "sentence": "After he had reigned over many countries for years, he trod on a banana peel and fell down and his head and died."
+  },
+  {
+    "id": 31,
+    "word": "shimmer",
+    "type": "verb",
+    "translation": "titrek titrek parıldamak",
+    "sentence": "The lake shimmered in the moonlight."
+  },
+  {
+    "id": 32,
+    "word": "breakthrough",
+    "type": "noun",
+    "translation": "önemli buluş, ilerleme",
+    "sentence": "Scientist have made a major breakthrough in the treatment of cancer."
+  },
+  {
+    "id": 33,
+    "word": "prosecute",
+    "type": "verb",
+    "translation": "dava açmak",
+    "sentence": "Can he be criminally prosecuted for cruelty to animals?"
+  },
+  {
+    "id": 34,
+    "word": "exploit",
+    "type": "verb",
+    "translation": "sömürmek",
+    "sentence": "Currently, manufacturers are exploiting the natural resources with very low efficiency."
+  },
+  {
+    "id": 35,
+    "word": "expenditure",
+    "type": "noun",
+    "translation": "harcama, masraf",
+    "sentence": "By this time his enormous expenditure on scientific study had used all his family's fund."
+  },
+  {
+    "id": 36,
+    "word": "counterfeit",
+    "type": "adjective",
+    "translation": "sahte",
+    "sentence": "There is no way you would be able to tell me that his wasn't a counterfeit bill."
+  },
+  {
+    "id": 37,
+    "word": "turmoil",
+    "type": "noun",
+    "translation": "hengame, karmaşa",
+    "sentence": "In the country, social and religious turmoil have continued for a long time."
+  },
+  {
+    "id": 38,
+    "word": "duly",
+    "type": "adjective",
+    "translation": "beklendiği gibi, gereğince",
+    "sentence": "They were duly buried with full religious ceremony and laid to rest for a second time."
+  },
+  {
+    "id": 39,
+    "word": "extravagant",
+    "type": "adjective",
+    "translation": "savurgan",
+    "sentence": "So extravagant, she buys her sons ponies, cars and throwing parties that make them the envy of their friends."
+  },
+  {
+    "id": 40,
+    "word": "overwhelming",
+    "type": "adjective",
+    "translation": "ezici, üstün",
+    "sentence": "We need to seek and find sufficient and overwhelming solutions to beat the rival company."
+  },
+  {
+    "id": 41,
+    "word": "surpass",
+    "type": "verb",
+    "translation": "aşmak, geçmek",
+    "sentence": "The book's success surpassed everyone's expectations."
+  },
+  {
+    "id": 42,
+    "word": "utter",
+    "type": "verb",
+    "translation": "ifade etmek, söylemek",
+    "sentence": "She left the house without uttering a word."
+  },
+  {
+    "id": 43,
+    "word": "courteous",
+    "type": "adjective",
+    "translation": "kibar",
+    "sentence": "They were respectful and courteous and asked my father's permission to speak him alone."
+  },
+  {
+    "id": 44,
+    "word": "obstruct",
+    "type": "verb",
+    "translation": "tıkamak, engel olmak",
+    "sentence": "It is an offense to obstruct the police during the course of their duty."
+  },
+  {
+    "id": 45,
+    "word": "harbour",
+    "type": "noun | verb",
+    "translation": "(noun) liman - (verb) gizlemek, beslemek",
+    "sentence": "Taylor denied harbouring a grudge against his former boss."
+  },
+  {
+    "id": 46,
+    "word": "haphazardly",
+    "type": "adverb",
+    "translation": "gelişigüzel bir şekilde",
+    "sentence": "Jury has haphazardly chosen a woman and invited her to the scene."
+  },
+  {
+    "id": 47,
+    "word": "immensely",
+    "type": "adverb",
+    "translation": "yoğun bir şekilde, son derece",
+    "sentence": "The team was immensely powerful and virtually unbeatable. But, we did."
+  },
+  {
+    "id": 48,
+    "word": "scorn",
+    "type": "noun",
+    "translation": "küçümseme, aşağılama",
+    "sentence": "I vacilliated between the false potency of scorn and feelings of ineptitude."
+  },
+  {
+    "id": 49,
+    "word": "contempt",
+    "type": "noun",
+    "translation": "küçümseme, aşağılama",
+    "sentence": "He never tried to hide his contempt for those who were not as intelligent as him."
+  },
+  {
+    "id": 50,
+    "word": "underrate",
+    "type": "verb",
+    "translation": "hafife almak, küçümsemek",
+    "sentence": "People who underrate the other around are going to be condemned by their own feelings of scorn."
+  },
+  {
+    "id": 51,
+    "word": "despise",
+    "type": "verb",
+    "translation": "küçümsemek, hor görmek",
+    "sentence": "I felt that the other kids despised me for having different accent and different colour skin."
+  },
+  {
+    "id": 52,
+    "word": "scrutinize",
+    "type": "verb",
+    "translation": "dikkatle incelemek",
+    "sentence": "Detectives scrutinized the area, looking for clues."
+  },
+  {
+    "id": 53,
+    "word": "secrete",
+    "type": "verb",
+    "translation": "salgılamak, saklamak",
+    "sentence": "He showed me the coin briefly and then secreted it in some dark corner of his house."
+  },
+  {
+    "id": 54,
+    "word": "wary",
+    "type": "adjective",
+    "translation": "temkinli, dikkatli",
+    "sentence": "She had become extremely wary of relationships as a result of her childhood experiences."
+  },
+  {
+    "id": 55,
+    "word": "segregation",
+    "type": "noun",
+    "translation": "ayrım",
+    "sentence": "Racial segregation in schools still exists in some southern states."
+  },
+  {
+    "id": 56,
+    "word": "temptation",
+    "type": "noun",
+    "translation": "karşı konulamaz istek",
+    "sentence": "When life was hard, the temptation to start drinking again was strong."
+  },
+  {
+    "id": 57,
+    "word": "imminent",
+    "type": "adjective",
+    "translation": "eli kulağında",
+    "sentence": "Soon it became clear to everyone that war was imminent."
+  },
+  {
+    "id": 58,
+    "word": "elaborately",
+    "type": "adverb",
+    "translation": "detaylı bir şekilde",
+    "sentence": "It needed to be searched all prisoners elaborately before their entering in the prison."
+  },
+  {
+    "id": 59,
+    "word": "elicit",
+    "type": "verb",
+    "translation": "sağlamak, temin etmek",
+    "sentence": "Short questions are more likely to elicit a response."
+  },
+  {
+    "id": 60,
+    "word": "deduce",
+    "type": "verb",
+    "translation": "sonuç çıkarmak",
+    "sentence": "Darwin's observations led him to deduce that plants and animals could adopt to their surroundings."
+  },
+  {
+    "id": 61,
+    "word": "deduction",
+    "type": "noun",
+    "translation": "tümden gelim, sonuç çıkarım, indirim, kesinti",
+    "sentence": "Automatic bill payment eliminates overlooked bills and the deduction is automatic; there's no need to contact us each month."
+  },
+  {
+    "id": 62,
+    "word": "deficiency",
+    "type": "noun",
+    "translation": "yetersizlik, eksiklik",
+    "sentence": "A deficiency of soil nutrients can cause the resulting crop to be disease-ridden and of very poor quality."
+  },
+  {
+    "id": 63,
+    "word": "admission",
+    "type": "noun",
+    "translation": "giriş ücreti, itiraf",
+    "sentence": "There isn't any admission for foreing visitors to travel places around the city."
+  },
+  {
+    "id": 64,
+    "word": "belligerently",
+    "type": "adverb",
+    "translation": "kavgacı bir şekilde",
+    "sentence": "Our next-door neighbour has always treated us belligerently for years."
+  },
+  {
+    "id": 65,
+    "word": "climax",
+    "type": "noun",
+    "translation": "doruk noktası",
+    "sentence": "The opera reaches its climax with Violett's death in the third act."
+  },
+  {
+    "id": 66,
+    "word": "permissive",
+    "type": "adjective",
+    "translation": "aşırı hoşgörülü",
+    "sentence": "In the permissive socity of the 1960s anything was possible."
+  },
+  {
+    "id": 67,
+    "word": "tentatively",
+    "type": "adverb",
+    "translation": "geçici olarak",
+    "sentence": "The emperor tentatively wanted me to have his grandfather's sword covered with gold for a while."
+  },
+  {
+    "id": 68,
+    "word": "vegetation",
+    "type": "noun",
+    "translation": "bitki örtüsü",
+    "sentence": "A deep path divide into fertile and noisy vegetation."
+  },
+  {
+    "id": 69,
+    "word": "temperament",
+    "type": "noun",
+    "translation": "huy, mizaç",
+    "sentence": "I'm not sure if she has the right temperament for the job."
   }
 ]
