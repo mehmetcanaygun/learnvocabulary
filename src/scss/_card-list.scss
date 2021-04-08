@@ -1,23 +1,20 @@
 .card-list {
-  position: absolute;
-  left: 0;
-  top: $navbar-height;
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 160px);
   overflow-x: hidden;
 
   ul {
+    position: relative;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    position: absolute;
-    top: 0;
+    overflow-x: hidden;
+    padding: 20px 0;
     transition: left 0.4s ease-in-out;
 
     .card {
-      width: 100%;
+      width: calc(100vw - 20px);
       padding: 100px 0;
-      margin: 20px 10px 0 10px;
+      margin: 0 10px;
       position: relative;
       cursor: pointer;
       border-radius: 12px;
@@ -86,7 +83,7 @@
 
   .buttons-container {
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     width: 100vw;
     padding: 0 $px 80px $px;
