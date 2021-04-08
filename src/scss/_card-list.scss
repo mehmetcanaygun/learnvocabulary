@@ -174,3 +174,27 @@
     }
   }
 }
+
+// Media Queries
+@media (min-width: 768px) {
+  .card-list {
+    ul {
+      .card {
+        width: 500px;
+        margin: 0 calc(50vw - 250px);
+      }
+    }
+
+    .buttons-container {
+      width: 500px;
+      left: calc(50vw - 250px);
+    }
+
+    .result-container {
+      padding: 20px calc(50vw - 250px);
+      width: 100%;
+      position: absolute;
+      top: $navbar-height;
+    }
+  }
+}

@@ -130,6 +130,12 @@ a {
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .footer {
+    padding: 0 calc(50vw - 250px);
+  }
+}
+
 .home-page {
   height: calc(100vh - 160px);
 }
@@ -194,6 +200,12 @@ a {
 .home-page .home-container .start-btn-container button:active {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+  .home-page .home-container {
+    padding: 0 calc(50vw - 250px);
+  }
 }
 
 .card-list {
@@ -395,6 +407,23 @@ a {
 .card-list .result-container .reset-btn {
   background-color: #bd3434;
   color: #eee;
+}
+
+@media (min-width: 768px) {
+  .card-list ul .card {
+    width: 500px;
+    margin: 0 calc(50vw - 250px);
+  }
+  .card-list .buttons-container {
+    width: 500px;
+    left: calc(50vw - 250px);
+  }
+  .card-list .result-container {
+    padding: 20px calc(50vw - 250px);
+    width: 100%;
+    position: absolute;
+    top: 80px;
+  }
 }
 
 .words-page {
@@ -668,5 +697,14 @@ a {
 .words-page .words-container .words .known.active,
 .words-page .words-container .words .unknown.active {
   display: block;
+}
+
+@media (min-width: 768px) {
+  .words-page {
+    padding: 20px calc(50vw - 250px) 100px calc(50vw - 250px);
+  }
+  .words-page .word-modal {
+    padding: 0 calc(50vw - 250px);
+  }
 }
 /*# sourceMappingURL=App.css.map */

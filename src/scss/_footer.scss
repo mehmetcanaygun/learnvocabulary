@@ -50,3 +50,10 @@
     }
   }
 }
+
+// Media Queries
+@media (min-width: 768px) {
+  .footer {
+    padding: 0 calc(50vw - 250px);
+  }
+}
