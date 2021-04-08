@@ -11,6 +11,7 @@ import {
   RESET,
   SET_ACTIVE_LINK,
 } from "../actionTypes";
+import { shuffle } from "../../utils";
 
 const initialState = {
   words: [],
@@ -57,7 +58,9 @@ export default function wordsReducer(state = initialState, action) {
     case EXCLUDE_KNOWN_WORDS:
       return {
         ...state,
-        words: state.words.filter((w) => !state.knownWords.includes(w)),
+        words: shuffle(
+          state.words.filter((w) => !state.knownWords.includes(w))
+        ),
       };
     case REMOVE_KNOWN:
       return {
