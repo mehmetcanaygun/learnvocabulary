@@ -43,7 +43,7 @@ const Words = ({
   // Filter Words
   const filterWord = (word) => {
     if (filter.length > 0) {
-      return word.includes(filter) ? "" : "hide";
+      return word.toLowerCase().includes(filter.toLowerCase()) ? "" : "hide";
     }
     return "";
   };
