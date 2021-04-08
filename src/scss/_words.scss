@@ -136,6 +136,45 @@
       }
     }
 
+    .filter {
+      position: relative;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 6px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgba($color-2, 0.4);
+        color: $color-1;
+        font-weight: bold;
+        box-shadow: 0px 3px #000;
+      }
+
+      button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        font-size: 18px;
+        background: none;
+        border: 0;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+        transition: 0.2s;
+      }
+
+      button.show {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+      }
+    }
+
     .words {
       .known,
       .unknown {
@@ -167,6 +206,10 @@
           button:active {
             transform: scale(1.1);
           }
+        }
+
+        ul li.hide {
+          display: none;
         }
       }
 

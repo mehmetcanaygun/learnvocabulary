@@ -32,12 +32,21 @@ const Words = ({
     translation: "",
     sentence: "",
   });
+  const [filter, setFilter] = useState("");
 
   if (modalActive) {
     document.body.style.overflowY = "hidden";
   } else {
     document.body.style.overflowY = "visible";
   }
+
+  // Filter Words
+  const filterWord = (word) => {
+    if (filter.length > 0) {
+      return word.includes(filter) ? "" : "hide";
+    }
+    return "";
+  };
 
   useEffect(() => {
     excludeKnownWords();
@@ -154,11 +163,25 @@ const Words = ({
             Bilmediğim
           </button>
         </div>
+        <div className="filter">
+          <input
+            type="text"
+            onChange={(e) => setFilter(e.target.value)}
+            value={filter}
+            placeholder="Kelime ara"
+          />
+          <button
+            className={filter.length > 0 ? "show" : ""}
+            onClick={() => setFilter("")}
+          >
+            <i className="fas fa-times"></i>
+          </button>
+        </div>
         <div className="words">
           <div className={showKnown ? "known active" : "known"}>
             <ul>
               {knownWords.map((w, index) => (
-                <li key={index}>
+                <li key={index} className={filterWord(w.word)}>
                   {w.word}{" "}
                   <button
                     onClick={() => {
@@ -175,7 +198,7 @@ const Words = ({
           <div className={!showKnown ? "unknown active" : "unknown"}>
             <ul>
               {unknownWords.map((w, index) => (
-                <li key={index}>
+                <li key={index} className={filterWord(w.word)}>
                   {w.word}{" "}
                   <button
                     onClick={() => {
