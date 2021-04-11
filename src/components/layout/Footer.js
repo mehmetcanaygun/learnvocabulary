@@ -8,7 +8,7 @@ const Footer = ({ activeLink }) => {
     <footer className="footer">
       <div>
         <Link to="/" className={activeLink === "/" ? "active" : ""}>
-          <i className="fas fa-home"></i>
+          <i className="fas fa-play"></i>
         </Link>
       </div>
       <div>
@@ -16,7 +16,7 @@ const Footer = ({ activeLink }) => {
           to="/kelimeler"
           className={activeLink === "/kelimeler" ? "active" : ""}
         >
-          <i className="fas fa-book"></i>
+          <i className="fas fa-list-ul"></i>
         </Link>
       </div>
     </footer>

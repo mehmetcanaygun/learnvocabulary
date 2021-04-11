@@ -1426,5 +1426,1251 @@
     "type": "verb",
     "translation": "(fikri) çürütmek / yalanlamak",
     "sentence": "There is simply no credible evidance to support the myth, and even much credible evidence to refute it."
+  },
+  {
+    "id": 204,
+    "word": "enact",
+    "type": "verb",
+    "translation": "yasalaştırmak",
+    "sentence": "Peter enacted widespread reforms based on Western models in his homeland of Russia."
+  },
+  {
+    "id": 205,
+    "word": "gratify",
+    "type": "verb",
+    "translation": "hoşnut/memnun etmek",
+    "sentence": "All human behavior is designed by the individuals to gratify others."
+  },
+  {
+    "id": 206,
+    "word": "overrun",
+    "type": "verb",
+    "translation": "istifa etmek, geçmek, aşmak, taşmak",
+    "sentence": "The site was overrun by rats."
+  },
+  {
+    "id": 207,
+    "word": "devise",
+    "type": "verb",
+    "translation": "tasarlamak, düzenlemek",
+    "sentence": "Leaders of the different teenage gangs are meeting today to try to devise a plan for peace."
+  },
+  {
+    "id": 208,
+    "word": "grind",
+    "type": "verb",
+    "translation": "öğütmek, çekmek",
+    "sentence": "Africans grind their own coffee"
+  },
+  {
+    "id": 209,
+    "word": "transcribe",
+    "type": "verb",
+    "translation": "kopya etmek, dönüştürmek",
+    "sentence": "The interviews were recorded on audiotape and transcribed by the researcher."
+  },
+  {
+    "id": 210,
+    "word": "unearth",
+    "type": "verb",
+    "translation": "meydana çıkarmak",
+    "sentence": "There is a significant crime which needs to be unearthed, investigated and prosecuted."
+  },
+  {
+    "id": 211,
+    "word": "assert",
+    "type": "verb",
+    "translation": "öne sürmek, iddia etmek",
+    "sentence": "The criminal continued to assert his innocence right up until his execution."
+  },
+  {
+    "id": 212,
+    "word": "convey",
+    "type": "verb",
+    "translation": "nakletmek, taşımak",
+    "sentence": "Don't close your eyes during the lecture if you don't want to convey the impression that you're bored."
+  },
+  {
+    "id": 213,
+    "word": "wane",
+    "type": "verb",
+    "translation": "azalmak, küçülmek",
+    "sentence": "The relationship between the two countries has waxed and waned over the years."
+  },
+  {
+    "id": 214,
+    "word": "retain",
+    "type": "verb",
+    "translation": "korumak, sürdürmek, devam ettirmek",
+    "sentence": "With our new thermos, your coffee will retain its temperature 25% longer than in a standard thermos."
+  },
+  {
+    "id": 215,
+    "word": "endow",
+    "type": "verb",
+    "translation": "bağışta bulunmak, bahşetmek",
+    "sentence": "Nature endowed her with both a sound mind and a sound body."
+  },
+  {
+    "id": 216,
+    "word": "avail",
+    "type": "verb",
+    "translation": "yaramak, faydalı olmak",
+    "sentence": "He was glad to avail himself of any means to succeed in life."
+  },
+  {
+    "id": 217,
+    "word": "waive",
+    "type": "verb",
+    "translation": "feragat etmek, hakkından vazgeçmek",
+    "sentence": "If my aunt hadn't waived before the court, there would have been so many problems."
+  },
+  {
+    "id": 218,
+    "word": "thrive",
+    "type": "verb",
+    "translation": "işi iyi gitmek, başarılı olmak, iyi yaşam sürmek",
+    "sentence": "Monkeys and baboons thrive in the rural regions of Uganda."
+  },
+  {
+    "id": 219,
+    "word": "resent",
+    "type": "verb",
+    "translation": "kızmak, gücenmek, içerlemek",
+    "sentence": "I really resent your complaining to the boss about my work on the project without having spoken to me about it first."
+  },
+  {
+    "id": 220,
+    "word": "plunge",
+    "type": "verb",
+    "translation": "içine dalmak, düşmek, düşürmek",
+    "sentence": "Stock prices plunged to a record low."
+  },
+  {
+    "id": 221,
+    "word": "disregard",
+    "type": "verb",
+    "translation": "önemsememek, aldırmamak, ihmal etmek, yok saymak",
+    "sentence": "She continued to see him in disregard of my advice."
+  },
+  {
+    "id": 222,
+    "word": "attribute",
+    "type": "verb",
+    "translation": "atfetmek",
+    "sentence": "It's not fair to attribute your failure to your parents."
+  },
+  {
+    "id": 223,
+    "word": "compensate",
+    "type": "verb",
+    "translation": "telafi etmek",
+    "sentence": "To compensate for his unpleasent experiences in hospital, Harun drank a little more than enough."
+  },
+  {
+    "id": 224,
+    "word": "atone",
+    "type": "verb",
+    "translation": "telafi etmek",
+    "sentence": "He should atone for his sins."
+  },
+  {
+    "id": 225,
+    "word": "compel",
+    "type": "verb",
+    "translation": "zorunda bırakmak",
+    "sentence": "I was compelled to leave the school."
+  },
+  {
+    "id": 226,
+    "word": "equivocal",
+    "type": "adjective",
+    "translation": "şüpheli",
+    "sentence": "Research in this area is somewhat equivocal."
+  },
+  {
+    "id": 227,
+    "word": "contemporary",
+    "type": "adjective",
+    "translation": "çağdaş, eş zamanlı, aynı zamanda yaşamış",
+    "sentence": "He was contemporary with Shakespeare."
+  },
+  {
+    "id": 228,
+    "word": "eradicate",
+    "type": "verb",
+    "translation": "kökten yok etmek",
+    "sentence": "We must eradicate the drug traffic, root and branch."
+  },
+  {
+    "id": 229,
+    "word": "dazzling",
+    "type": "adjective",
+    "translation": "muhteşem, büyüleyici",
+    "sentence": "Laptops are sleek, light machines with dazzling graphics and serious power."
+  },
+  {
+    "id": 230,
+    "word": "calamity",
+    "type": "noun",
+    "translation": "felaket",
+    "sentence": "The anticipation is always worse than the calamity."
+  },
+  {
+    "id": 231,
+    "word": "seize",
+    "type": "verb",
+    "translation": "kapmak, el koymak, ele geçirmek, anı yakalamak",
+    "sentence": "Dean decided to seize the moment."
+  },
+  {
+    "id": 232,
+    "word": "distressing",
+    "type": "adjective",
+    "translation": "üzücü, acı veren",
+    "sentence": "Our last session on the day ended on a sad note that was very distressing to Murat."
+  },
+  {
+    "id": 233,
+    "word": "uneasy",
+    "type": "adjective",
+    "translation": "tedirgin, huzursuz, gergin",
+    "sentence": "She was uneasy because she had never been on a plane before."
+  },
+  {
+    "id": 234,
+    "word": "unambiguous",
+    "type": "adjective",
+    "translation": "anlamı açık, sarih",
+    "sentence": "Yet it is not a single and unambiguous logical movement that derives from Kant."
+  },
+  {
+    "id": 235,
+    "word": "reproach",
+    "type": "verb",
+    "translation": "eleştirmek, kınamak",
+    "sentence": "They who have put out the people's eyes, reproach them of their blindness."
+  },
+  {
+    "id": 236,
+    "word": "constitute",
+    "type": "verb",
+    "translation": "meydana gelmek, oluşturmak",
+    "sentence": "The Bank of England is constituted a body of corporate by its 1964 charter."
+  },
+  {
+    "id": 237,
+    "word": "steep",
+    "type": "adjective",
+    "translation": "dik, keskin",
+    "sentence": "As soon as there was a steep decline in iPhone prices, everyone went out and purchased a new model."
+  },
+  {
+    "id": 238,
+    "word": "hamper",
+    "type": "verb",
+    "translation": "güçleştirmek, engel olmak",
+    "sentence": "According to economists, the high rate of unemployement will continue to hamper economic growth."
+  },
+  {
+    "id": 239,
+    "word": "stimulate",
+    "type": "verb",
+    "translation": "uyarmak, canlandırmak, teşvik etmek",
+    "sentence": "This herbal tea doesn't stimulate that much comparing to the strengt of coffee."
+  },
+  {
+    "id": 240,
+    "word": "amend",
+    "type": "verb",
+    "translation": "değiştirmek, düzeltmek, iyileştirmek",
+    "sentence": "Some people want to amend the constitution regardless of the majority's idea."
+  },
+  {
+    "id": 241,
+    "word": "dismissively",
+    "type": "adverb",
+    "translation": "ilgisice, hor görerek, itibarsız bir şekilde, ciddiye almadan",
+    "sentence": "He replied on his comments about international policies dismissively."
+  },
+  {
+    "id": 242,
+    "word": "discharge",
+    "type": "verb",
+    "translation": "boşaltmak, deşarj olmak, taburcu etmek, ödemek",
+    "sentence": "Everybody in the skyscrapper will be discharged from the building due to the imminent air strike."
+  },
+  {
+    "id": 243,
+    "word": "depict",
+    "type": "verb",
+    "translation": "tasvir etmek, göstermek, tanımlamak, betimlemek, resmetmek",
+    "sentence": "The actual meaning and depth of the book was not correctly depicted in its movie version."
+  },
+  {
+    "id": 244,
+    "word": "excavation",
+    "type": "noun",
+    "translation": "kazı, kazma, oyuk, kazı yeri",
+    "sentence": "Human remains were found during the excavation."
+  },
+  {
+    "id": 245,
+    "word": "patricide",
+    "type": "noun",
+    "translation": "baba katli, arkaba katili, birinin babasını öldürmesi",
+    "sentence": "Two young criminals' patricide case has failed due to the time interval of the case."
+  },
+  {
+    "id": 246,
+    "word": "hinder",
+    "type": "verb",
+    "translation": "engellemek, aksatmak, alıkoymak",
+    "sentence": "The lack of open communication in the family hindered Marie's ability to ask for help."
+  },
+  {
+    "id": 247,
+    "word": "ambiguous",
+    "type": "noun",
+    "translation": "belirsiz, çok anlamlı, iki anlamlı, kuşkulu",
+    "sentence": "Much of the report is hard to read and contains many ambiguous or misleading statements."
+  },
+  {
+    "id": 248,
+    "word": "profound",
+    "type": "adjective",
+    "translation": "derin",
+    "sentence": "Your questions are getting progressively more profound."
+  },
+  {
+    "id": 249,
+    "word": "graceful",
+    "type": "adjective",
+    "translation": "zarif",
+    "sentence": "Ice skating can be graceful and beautiful."
+  },
+  {
+    "id": 250,
+    "word": "fanciful",
+    "type": "adjective",
+    "translation": "fantastik, hayalperest",
+    "sentence": "He is always telling fanciful stories."
+  },
+  {
+    "id": 251,
+    "word": "exhaustive",
+    "type": "adjective",
+    "translation": "kapsamlı",
+    "sentence": "I am not the kind of actor who goes into exhaustive research for each role."
+  },
+  {
+    "id": 252,
+    "word": "abduct",
+    "type": "verb",
+    "translation": "kaçırmak",
+    "sentence": "She was abducted and her body wasn't found for six weeks."
+  },
+  {
+    "id": 253,
+    "word": "abolish",
+    "type": "verb",
+    "translation": "kaldırmak, fesh etmek",
+    "sentence": "He wished to control, not to abolish them."
+  },
+  {
+    "id": 254,
+    "word": "temperate",
+    "type": "adjective",
+    "translation": "ılıman, ölçülü, ılımlı",
+    "sentence": "The discussion about the economy in the class was really temperate."
+  },
+  {
+    "id": 255,
+    "word": "tenderly",
+    "type": "adverb",
+    "translation": "kibarca",
+    "sentence": "My father was talking to my mother tenderly."
+  },
+  {
+    "id": 256,
+    "word": "wary",
+    "type": "adjective",
+    "translation": "tedbirli",
+    "sentence": "She expected joy at the offer but felt wary instead."
+  },
+  {
+    "id": 257,
+    "word": "watchful",
+    "type": "adjective",
+    "translation": "dikkatli",
+    "sentence": "It wouldn't hurt to be watchful."
+  },
+  {
+    "id": 258,
+    "word": "weave",
+    "type": "verb",
+    "translation": "örmek, dokumak",
+    "sentence": "The Red Karen women weave their own and their husbands' clothing."
+  },
+  {
+    "id": 259,
+    "word": "secluded",
+    "type": "adjective",
+    "translation": "tecrit edilmiş, gözlerden uzak",
+    "sentence": "The first prisoners who went forth to engage in this difficult enterprise come from the secluded Celtic churches."
+  },
+  {
+    "id": 260,
+    "word": "abstain",
+    "type": "verb",
+    "translation": "çekinmek, uzak durmak",
+    "sentence": "It was easy for me to abstain from drinking."
+  },
+  {
+    "id": 261,
+    "word": "cease",
+    "type": "verb",
+    "translation": "son vermek, dondurmak",
+    "sentence": "If he is an honorable man, he should either declare his intentions or cease seeing you."
+  },
+  {
+    "id": 262,
+    "word": "adverse",
+    "type": "adjective",
+    "translation": "ters, kötü, istenmeyen",
+    "sentence": "It has been shown in most studies on this subject that intervention of the legislature had adverse effects."
+  },
+  {
+    "id": 263,
+    "word": "barren",
+    "type": "adjective",
+    "translation": "verimsiz, çorak",
+    "sentence": "There is no barren of creative spirit."
+  },
+  {
+    "id": 264,
+    "word": "concise",
+    "type": "adjective",
+    "translation": "kısa, özlü, kestirme",
+    "sentence": "I need a concise explanation."
+  },
+  {
+    "id": 265,
+    "word": "decisive",
+    "type": "adjective",
+    "translation": "kati, kesin, belirleyici, kararlı",
+    "sentence": "I'm decisive."
+  },
+  {
+    "id": 266,
+    "word": "defiant",
+    "type": "adjective",
+    "translation": "karşı koyan, meydan okuyan",
+    "sentence": "Tom's defiant."
+  },
+  {
+    "id": 267,
+    "word": "detrimental",
+    "type": "adjective",
+    "translation": "zararlı",
+    "sentence": "Mathematics is not detrimental to the appetite."
+  },
+  {
+    "id": 268,
+    "word": "feasible",
+    "type": "adjective",
+    "translation": "yapılabilir, mümkün",
+    "sentence": "His plan seemed to be feasible."
+  },
+  {
+    "id": 269,
+    "word": "illustrious",
+    "type": "adjective",
+    "translation": "seçkin, meşhur",
+    "sentence": "The actor's illustrious career was honored at a gala event."
+  },
+  {
+    "id": 270,
+    "word": "immense",
+    "type": "adjective",
+    "translation": "çok büyük",
+    "sentence": "He left an immense fortune to his children."
+  },
+  {
+    "id": 271,
+    "word": "antagonistic",
+    "type": "adjective",
+    "translation": "düşmanca",
+    "sentence": "The two countries are antagonistic to each other."
+  },
+  {
+    "id": 272,
+    "word": "fruitful",
+    "type": "adjective",
+    "translation": "verimli, üretken",
+    "sentence": "Their stay in Germany for a year was very fruitful."
+  },
+  {
+    "id": 273,
+    "word": "gradual",
+    "type": "adjective",
+    "translation": "aşamalı, kademeli",
+    "sentence": "The gradual ruin of our country has to be stopped."
+  },
+  {
+    "id": 274,
+    "word": "inadequate",
+    "type": "adjective",
+    "translation": "yetersiz",
+    "sentence": "Our school facilities are inadequate for foreign students."
+  },
+  {
+    "id": 275,
+    "word": "indifferent",
+    "type": "adjective",
+    "translation": "kayıtsız, ilgisiz",
+    "sentence": "John is indifferent about his clothes."
+  },
+  {
+    "id": 276,
+    "word": "paramount",
+    "type": "adjective",
+    "translation": "olağanüstü, çok önemli",
+    "sentence": "The idea is of paramount importance."
+  },
+  {
+    "id": 277,
+    "word": "miscellaneous",
+    "type": "adjective",
+    "translation": "farklı, diğer, çeşitli",
+    "sentence": "No matter how much I rush it, miscellaneous work keeps piling up and I can'T finish them."
+  },
+  {
+    "id": 278,
+    "word": "scarce",
+    "type": "adjective",
+    "translation": "nadir, kıt, az",
+    "sentence": "Water is scarce in this area."
+  },
+  {
+    "id": 279,
+    "word": "quantify",
+    "type": "verb",
+    "translation": "miktarını belirlemek",
+    "sentence": "This list may be useful to quantify efforts invested for medicine."
+  },
+  {
+    "id": 280,
+    "word": "conduct",
+    "type": "verb",
+    "translation": "yürütmek, yönetmek, idare etmek, davranmak, iletmek",
+    "sentence": "In the second trial he conducted his own defense."
+  },
+  {
+    "id": 281,
+    "word": "confine",
+    "type": "verb",
+    "translation": "sınırlandırmak, hapsetmek",
+    "sentence": "He is confined to his house by illness."
+  },
+  {
+    "id": 282,
+    "word": "embody",
+    "type": "verb",
+    "translation": "eklemek, dahil etmek, temsil etmek",
+    "sentence": "The laws of a land embody the spirit of its people."
+  },
+  {
+    "id": 283,
+    "word": "enclose",
+    "type": "verb",
+    "translation": "çevirmek, çevrelemek, eklemek, içine koymak",
+    "sentence": "I have enclosed your order form."
+  },
+  {
+    "id": 284,
+    "word": "infer",
+    "type": "verb",
+    "translation": "çıkarmak, çıkarımda bulunmak",
+    "sentence": "What do you infer from her strange behavior?"
+  },
+  {
+    "id": 285,
+    "word": "fierce",
+    "type": "adjective",
+    "translation": "sert, şiddetli, vahşi",
+    "sentence": "A fierce dog attacked the girl."
+  },
+  {
+    "id": 286,
+    "word": "submit",
+    "type": "verb",
+    "translation": "boyun eğmek",
+    "sentence": "I'd rather die than submit."
+  },
+  {
+    "id": 287,
+    "word": "reluctantly",
+    "type": "adverb",
+    "translation": "isteksizce",
+    "sentence": "Reluctantly, he started the engine and drove off."
+  },
+  {
+    "id": 288,
+    "word": "deliberately",
+    "type": "adverb",
+    "translation": "kasten",
+    "sentence": "She deliberately ignored me on the street."
+  },
+  {
+    "id": 289,
+    "word": "moderate",
+    "type": "adjective",
+    "translation": "ılımlı",
+    "sentence": "The weather in Florida is generally moderate."
+  },
+  {
+    "id": 290,
+    "word": "recurrent",
+    "type": "adjective",
+    "translation": "tekrarlayan",
+    "sentence": "Her recurrent nightmare involved a tsunami."
+  },
+  {
+    "id": 291,
+    "word": "preeminent",
+    "type": "adjective",
+    "translation": "en önde gelen",
+    "sentence": "Dokuz Eylül University is one of the preeminent universities in Turkey."
+  },
+  {
+    "id": 292,
+    "word": "successive",
+    "type": "adjective",
+    "translation": "arka arkaya",
+    "sentence": "It is hard to win four successive games."
+  },
+  {
+    "id": 293,
+    "word": "invaluable",
+    "type": "adjective",
+    "translation": "paha biçilemez",
+    "sentence": "His help has been invaluable."
+  },
+  {
+    "id": 294,
+    "word": "mounting",
+    "type": "noun",
+    "translation": "montaj",
+    "sentence": "Set a diamond in a platinum mounting."
+  },
+  {
+    "id": 295,
+    "word": "rigid",
+    "type": "adjective",
+    "translation": "sert",
+    "sentence": "The frame of the machine should be rigid."
+  },
+  {
+    "id": 296,
+    "word": "vague",
+    "type": "adjective",
+    "translation": "anlaşılmaz",
+    "sentence": "John is being vague, isn't he?"
+  },
+  {
+    "id": 297,
+    "word": "wicked",
+    "type": "adjective",
+    "translation": "kötü",
+    "sentence": "Once there lived a very wicked king in England."
+  },
+  {
+    "id": 298,
+    "word": "abate",
+    "type": "verb",
+    "translation": "azalmak",
+    "sentence": "The fever has abated."
+  },
+  {
+    "id": 299,
+    "word": "abide",
+    "type": "verb",
+    "translation": "katlanmak",
+    "sentence": "I can't abide hearing you cry so bitterly."
+  },
+  {
+    "id": 300,
+    "word": "abound",
+    "type": "verb",
+    "translation": "bol olmak",
+    "sentence": "Birds abound in the woods."
+  },
+  {
+    "id": 301,
+    "word": "economize",
+    "type": "verb",
+    "translation": "masraftan kısmak, idareli kullanmak",
+    "sentence": "Because of low salaries in New Delhi many families are trying to mainstream their lives by economizing."
+  },
+  {
+    "id": 302,
+    "word": "substantial",
+    "type": "adjective",
+    "translation": "önemli, varlıklı",
+    "sentence": "Taj got a substantial raise as a result of his excellent work on the project last month."
+  },
+  {
+    "id": 303,
+    "word": "earth",
+    "type": "verb",
+    "translation": "kaplamak, toprakla örtmek",
+    "sentence": "The government is going to start working to earth some areas have really bad conditions to trip."
+  },
+  {
+    "id": 304,
+    "word": "faciliate",
+    "type": "verb",
+    "translation": "kolaylaştırmak, hafifletmek",
+    "sentence": "The government is looking for ways to faciliate foreign investment in our country."
+  },
+  {
+    "id": 305,
+    "word": "call off",
+    "type": "verb",
+    "translation": "iptal etmek, durdurmak",
+    "sentence": "After the bushfires, we have decided to call off this year's fireworks display."
+  },
+  {
+    "id": 306,
+    "word": "swift",
+    "type": "adjective",
+    "translation": "hızlı",
+    "sentence": "The government needs to take swift actions."
+  },
+  {
+    "id": 307,
+    "word": "striking",
+    "type": "adjective",
+    "translation": "çarpıcı, göze çarpan",
+    "sentence": "Goethe once suggested that one of the most striking signs of the decay of art is the intermixing of different genres."
+  },
+  {
+    "id": 308,
+    "word": "gleaming",
+    "type": "adjective",
+    "translation": "pırıltılı",
+    "sentence": "He polished his new car until it was gleaming."
+  },
+  {
+    "id": 309,
+    "word": "impartial",
+    "type": "adjective",
+    "translation": "tarafsız, yansız",
+    "sentence": "He puts on a show of being impartial and unbiased, but I think he's just a guy with no opinions of his own."
+  },
+  {
+    "id": 310,
+    "word": "alluring",
+    "type": "adjective",
+    "translation": "çekici",
+    "sentence": "Being a hacker has always been very alluring to me."
+  },
+  {
+    "id": 311,
+    "word": "gloomy",
+    "type": "adjective",
+    "translation": "kötümser",
+    "sentence": "The workers became very gloomy when they heard that the company wasn't doing well."
+  },
+  {
+    "id": 312,
+    "word": "imperative",
+    "type": "adjective",
+    "translation": "zorunlu",
+    "sentence": "It is imperative for you to finish reading the documents by Sunday."
+  },
+  {
+    "id": 313,
+    "word": "implicit",
+    "type": "adjective",
+    "translation": "ima edilen",
+    "sentence": "There were certain obligations that were obviously implicit in the contact."
+  },
+  {
+    "id": 314,
+    "word": "fluctuate",
+    "type": "verb",
+    "translation": "dalgalanmak",
+    "sentence": "The price of gold fluctates daily."
+  },
+  {
+    "id": 315,
+    "word": "meticulous",
+    "type": "adjective",
+    "translation": "titiz, kılı kırk yaran",
+    "sentence": "He's not a very meticulous guy."
+  },
+  {
+    "id": 316,
+    "word": "formidable",
+    "type": "adjective",
+    "translation": "korkutucu, yıldırıcı",
+    "sentence": "Formidable looking spiders do not attack people."
+  },
+  {
+    "id": 317,
+    "word": "haul",
+    "type": "verb",
+    "translation": "çekmek",
+    "sentence": "Please haul on the rope."
+  },
+  {
+    "id": 318,
+    "word": "impede",
+    "type": "verb",
+    "translation": "engellemek",
+    "sentence": "As I tried to enter the concourse, a slow person was impeding my progress."
+  },
+  {
+    "id": 319,
+    "word": "implant",
+    "type": "verb",
+    "translation": "kafasına sokmak",
+    "sentence": "Electronics had been implanted in his brain."
+  },
+  {
+    "id": 320,
+    "word": "overtake",
+    "type": "verb",
+    "translation": "yetişmek",
+    "sentence": "If you hurry, you will soon overtake her."
+  },
+  {
+    "id": 321,
+    "word": "perceive",
+    "type": "verb",
+    "translation": "algılamak",
+    "sentence": "We tend to perceive what we expect to perceive."
+  },
+  {
+    "id": 322,
+    "word": "boast",
+    "type": "verb",
+    "translation": "övünmek",
+    "sentence": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud."
+  },
+  {
+    "id": 323,
+    "word": "break out",
+    "type": "verb",
+    "translation": "patlak vermek",
+    "sentence": "We really hope another war will not break out."
+  },
+  {
+    "id": 324,
+    "word": "denote",
+    "type": "verb",
+    "translation": "belirtmek",
+    "sentence": "The tide is used in math to denote equivalence."
+  },
+  {
+    "id": 325,
+    "word": "denounce",
+    "type": "verb",
+    "translation": "kınamak",
+    "sentence": "It was tempting to denounce him in front of everyone, but that would be childish."
+  },
+  {
+    "id": 326,
+    "word": "emerge",
+    "type": "verb",
+    "translation": "kurtulmak",
+    "sentence": "Japan is still struggling to emerge from recession."
+  },
+  {
+    "id": 327,
+    "word": "emit",
+    "type": "verb",
+    "translation": "yaymak",
+    "sentence": "Flesh does not emit light... or does it?"
+  },
+  {
+    "id": 328,
+    "word": "feign",
+    "type": "verb",
+    "translation": "rol yapmak",
+    "sentence": "He feigned illness to get out of working."
+  },
+  {
+    "id": 329,
+    "word": "grant",
+    "type": "noun",
+    "translation": "hibe",
+    "sentence": "This study grant was given to me bu the department council."
+  },
+  {
+    "id": 330,
+    "word": "grip",
+    "type": "verb",
+    "translation": "hakim olmak, kavramak, kontrol",
+    "sentence": "Get a grip on yourself."
+  },
+  {
+    "id": 331,
+    "word": "hamper",
+    "type": "verb | noun",
+    "translation": "(verb) engellemek, engel olmak, zorlaştırmak - (noun) sepet, piknik sepeti",
+    "sentence": "Social services authorities have warned that plans to boost the number of adoptions could be hampered by lack of staff."
+  },
+  {
+    "id": 332,
+    "word": "defy",
+    "type": "verb",
+    "translation": "karşı gelmek, meydan okumak, baş kaldırmak",
+    "sentence": "We defy our foes, for our passion makes us strong!"
+  },
+  {
+    "id": 333,
+    "word": "cessation",
+    "type": "noun",
+    "translation": "ara, kesilme, durma",
+    "sentence": "The menopause is the permanent cessation of the overies' principal function."
+  },
+  {
+    "id": 334,
+    "word": "abstain",
+    "type": "verb",
+    "translation": "kaçınmak, çekinmek, sakınmak",
+    "sentence": "Harun was told to abstain from smoking and drinking."
+  },
+  {
+    "id": 335,
+    "word": "damp",
+    "type": "noun | verb",
+    "translation": "(noun) rutubet, nem, ıslaklık, indirim - (verb) ıslatmak, nemlendirmek, indirim yapmak",
+    "sentence": "This morning I was wiping the table with a slightly damp rag."
+  },
+  {
+    "id": 336,
+    "word": "debris",
+    "type": "noun",
+    "translation": "enkaz, yıkıntı, atık",
+    "sentence": "Some of the bodies remained under debris till rescue workers cleared the area."
+  },
+  {
+    "id": 337,
+    "word": "earnestly",
+    "type": "adverb",
+    "translation": "ağırbaşlı bir şekilde, ciddiyetle",
+    "sentence": "Many of the youngsters entering the arena take his objective quite earnestly."
+  },
+  {
+    "id": 338,
+    "word": "garment",
+    "type": "noun",
+    "translation": "giysi, elbise, giyim, kılıf",
+    "sentence": "I wonder what materials the garment is made of."
+  },
+  {
+    "id": 339,
+    "word": "obscene",
+    "type": "adjective",
+    "translation": "müstehcen, ağza alınmaz, ayıp, iğrenç, edepsiz",
+    "sentence": "The court said obscene material should be judged by local standards."
+  },
+  {
+    "id": 340,
+    "word": "palate",
+    "type": "noun",
+    "translation": "damat, tat alma, damak zevki, ağız tabanı",
+    "sentence": "Foreign rice is hard and tasteless, and doesn't appeal to the Japanese palate."
+  },
+  {
+    "id": 341,
+    "word": "sanction",
+    "type": "noun | verb",
+    "translation": "(noun) onay, yaptırım, ceza - (verb) tasdik etmek, onaylamak, uygun görmek",
+    "sentence": "Both countries have developed a set of sanctions for leaders who disobey the rules."
+  },
+  {
+    "id": 342,
+    "word": "salvage",
+    "type": "verb | noun",
+    "translation": "(verb) eşya-mal kurtarmak - (noun) hurda, enkaz, kurtarılan mal",
+    "sentence": "A number of attempts were made to salvage the ship but they failed."
+  },
+  {
+    "id": 343,
+    "word": "vain",
+    "type": "adjective",
+    "translation": "faydasız, boş, beyhude, yararsız, kibirli",
+    "sentence": "If you compare yourself with others, you may feel vain or hopeless."
+  },
+  {
+    "id": 344,
+    "word": "ward",
+    "type": "noun",
+    "translation": "koğuş, bölge, semt, avlu",
+    "sentence": "You'll then be taken back to the hospital ward."
+  },
+  {
+    "id": 345,
+    "word": "unanimous",
+    "type": "adjective",
+    "translation": "aynı düşüncede, oy birliği ile yapılan, hemfikir, müttefik",
+    "sentence": "Villagers were almost unanimous in their support for the proposed new route to the distant town."
+  },
+  {
+    "id": 346,
+    "word": "tangible",
+    "type": "adjective",
+    "translation": "somut, dokunulabilir, elle tutulur, dokunulur",
+    "sentence": "The atmosphere of neglect and abandonment was almost tangible."
+  },
+  {
+    "id": 347,
+    "word": "tame",
+    "type": "verb | adjective",
+    "translation": "(verb) evcilleştirmek, yumuşatmak, dize getirmek - (adjective) evcil, ehli, uslu",
+    "sentence": "He said that it must be remembered that elephants are not naturally tame."
+  },
+  {
+    "id": 348,
+    "word": "scarcity",
+    "type": "noun",
+    "translation": "kıtlık, azlık, nadirlik",
+    "sentence": "The emphasis on the subject was only given in times of drought and water scarcity."
+  },
+  {
+    "id": 349,
+    "word": "satire",
+    "type": "noun",
+    "translation": "hiciv, taşlama, yerme",
+    "sentence": "He was not aware that the praise was a satire in disguise."
+  },
+  {
+    "id": 350,
+    "word": "incubation",
+    "type": "noun",
+    "translation": "kuluçka",
+    "sentence": "Lepromataus disease has a mean clinical incubation time of 10 years."
+  },
+  {
+    "id": 351,
+    "word": "inoculation",
+    "type": "noun",
+    "translation": "aşılama, aşı",
+    "sentence": "Inoculation against flu was readily available."
+  },
+  {
+    "id": 352,
+    "word": "sedate",
+    "type": "adjective",
+    "translation": "ciddi, ağırbaşlı, sakin",
+    "sentence": "There are a number of orchestras here which also remind us of those days when everything was calmer and more sedate."
+  },
+  {
+    "id": 353,
+    "word": "aspire",
+    "type": "verb",
+    "translation": "heveslenmek, can atmak",
+    "sentence": "The article is inspiring and it is to be hoped that we all aspire to live our lives in this way."
+  },
+  {
+    "id": 354,
+    "word": "dispense",
+    "type": "verb",
+    "translation": "dağıtmak",
+    "sentence": "So all you guys out there listen up, I'm going to dispense this information to you all."
+  },
+  {
+    "id": 355,
+    "word": "mischief",
+    "type": "noun",
+    "translation": "haylazlık, fesatlık",
+    "sentence": "Dogs, just like humans, forget, get distracted, make mistakes, get into mischief, and act on impulse."
+  },
+  {
+    "id": 356,
+    "word": "tackle",
+    "type": "noun",
+    "translation": "olta takımı, mücadele",
+    "sentence": "Was it true that there were fishing tackle not used?"
+  },
+  {
+    "id": 357,
+    "word": "inhibit",
+    "type": "verb",
+    "translation": "engellemek, yasaklamak",
+    "sentence": "None of these problems is critical, but they all act to inhibit the process of renewing Autralia's economic infrastructure."
+  },
+  {
+    "id": 358,
+    "word": "decay",
+    "type": "verb",
+    "translation": "çürümek, bozulmak",
+    "sentence": "Some vegetables may decay before drying, so start with several in order to ensure that one will dry successfully."
+  },
+  {
+    "id": 359,
+    "word": "lenient",
+    "type": "adjective",
+    "translation": "hoşgörülü",
+    "sentence": "Therefore, I will not suspend you this time, but do not expect me to be so lenient with you next time."
+  },
+  {
+    "id": 360,
+    "word": "thoroughly",
+    "type": "adverb",
+    "translation": "adamakıllı, etraflıca",
+    "sentence": "Houses and shops are thoroughly cleaned to make a freash new start and to host holiday visitors."
+  },
+  {
+    "id": 361,
+    "word": "resourceful",
+    "type": "adjective",
+    "translation": "becerikli, işi bilen",
+    "sentence": "You will become stronger and more resourceful in the face of adversity."
+  },
+  {
+    "id": 362,
+    "word": "susceptible",
+    "type": "adjective",
+    "translation": "duyarlı, yatkın",
+    "sentence": "Patients with liver disease may be susceptible to infection."
+  },
+  {
+    "id": 363,
+    "word": "retain",
+    "type": "verb",
+    "translation": "sürdürmek, alıkoymak",
+    "sentence": "Built in 1830, the house retains many of its original features."
+  },
+  {
+    "id": 364,
+    "word": "renovate",
+    "type": "verb",
+    "translation": "yenilemek",
+    "sentence": "The old school has been tastefully renovated as a private house."
+  },
+  {
+    "id": 365,
+    "word": "revoke",
+    "type": "verb",
+    "translation": "iptal etmek, kaldırmak",
+    "sentence": "Access is at all times probationary and can be denied, revoked or reviewed at any time for any reason."
+  },
+  {
+    "id": 366,
+    "word": "culminate",
+    "type": "verb",
+    "translation": "sonuçlanmak",
+    "sentence": "Weeks of violance culminated in the brutal murder of a magistrate."
+  },
+  {
+    "id": 367,
+    "word": "bountifully",
+    "type": "adverb",
+    "translation": "bol bol, cömertçe",
+    "sentence": "Lisa loved gardening; she took much pride in her flowers and in a productive vegetable garden, often sharing bountifully with family and friends."
+  },
+  {
+    "id": 368,
+    "word": "diminish",
+    "type": "verb",
+    "translation": "azalmak",
+    "sentence": "The pain will diminish as your musculature revocers."
+  },
+  {
+    "id": 369,
+    "word": "cynical",
+    "type": "adjective",
+    "translation": "alaycı, küçümseyen",
+    "sentence": "When you're younger, you're less cynical; you believe love will be forever."
+  },
+  {
+    "id": 370,
+    "word": "permissively",
+    "type": "adverb",
+    "translation": "anlayışla, hoşgörüyle",
+    "sentence": "In the long run, when children are treated too permissively, their behavior can become bigger and more drastic."
+  },
+  {
+    "id": 371,
+    "word": "lucrative",
+    "type": "adjective",
+    "translation": "kazançlı, karlı",
+    "sentence": "Instead, he became more famous for crashing his Porsche and signing the world's most lucrative contract."
+  },
+  {
+    "id": 372,
+    "word": "novel",
+    "type": "adjective | noun",
+    "translation": "(adjective) özgün, yeni, tuhaf, alışılmamış - (noun) roman",
+    "sentence": "The novel idea aims to promote healthy eating habits for children around the country."
+  },
+  {
+    "id": 373,
+    "word": "obsolete",
+    "type": "adjective",
+    "translation": "eski, demode",
+    "sentence": "One minute, happy and in love, the next he felt like a wet newspaper, out of date, obsolete."
+  },
+  {
+    "id": 374,
+    "word": "insignificant",
+    "type": "adjective",
+    "translation": "önemsiz, değersiz",
+    "sentence": "All that is insignificant compared to what his family has faced."
+  },
+  {
+    "id": 375,
+    "word": "renowned",
+    "type": "adjective",
+    "translation": "ünlü, şöhretli",
+    "sentence": "Most world-famous cities have an equally renowned river flowing through them."
+  },
+  {
+    "id": 376,
+    "word": "arbitrary",
+    "type": "adjective",
+    "translation": "keyfi, rastgele",
+    "sentence": "Police officers cannot take arbitrary measures based on suspicion."
+  },
+  {
+    "id": 377,
+    "word": "futile",
+    "type": "adjective",
+    "translation": "nafile, boşuna",
+    "sentence": "I glanced carelessly at the door, in a futile attempt to change the subject."
+  },
+  {
+    "id": 378,
+    "word": "luminous",
+    "type": "adjective",
+    "translation": "ışık saçan, berrak",
+    "sentence": "Her eyes seemed almost to be glowing red from the luminous flames."
+  },
+  {
+    "id": 379,
+    "word": "picturesque",
+    "type": "adjective",
+    "translation": "etkili, güzel, resmedilmeye değer",
+    "sentence": "This has to be one of the most picturesque places in Glasgow."
+  },
+  {
+    "id": 380,
+    "word": "plausible",
+    "type": "adjective",
+    "translation": "makul, olası",
+    "sentence": "There is no plausible reason and explanation why the amount should be increased."
+  },
+  {
+    "id": 381,
+    "word": "obstructive",
+    "type": "adjective",
+    "translation": "engelleyici",
+    "sentence": "All tubing should be cleared of obstructive algae and detritus."
   }
 ]
