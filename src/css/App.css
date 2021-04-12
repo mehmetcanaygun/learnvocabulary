@@ -65,7 +65,7 @@ a {
 
 .navbar .reset-btn {
   position: absolute;
-  top: calc(($navbar-height / 2) - 15px);
+  top: 25px;
   right: 12px;
   width: 80px;
   height: 30px;
