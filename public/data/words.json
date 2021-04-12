@@ -2672,5 +2672,740 @@
     "type": "adjective",
     "translation": "engelleyici",
     "sentence": "All tubing should be cleared of obstructive algae and detritus."
+  },
+  {
+    "id": 382,
+    "word": "judicially",
+    "type": "adverb",
+    "translation": "hukuken",
+    "sentence": "I would not favour the introduction of such a defence judicially."
+  },
+  {
+    "id": 383,
+    "word": "intently",
+    "type": "adverb",
+    "translation": "dikkatle",
+    "sentence": "The boys played intently."
+  },
+  {
+    "id": 384,
+    "word": "orientation",
+    "type": "noun",
+    "translation": "yönlendirme, oryantasyon",
+    "sentence": "We employ people without regard to their political or sexual orientation."
+  },
+  {
+    "id": 385,
+    "word": "intervene",
+    "type": "verb",
+    "translation": "karışmak, araya girmek",
+    "sentence": "The Central Bank intervened in the currency markets today to try to stabilize the exchange rate."
+  },
+  {
+    "id": 386,
+    "word": "favourably",
+    "type": "adverb",
+    "translation": "uygun olarak, hoşnutlukla",
+    "sentence": "The deal will work out favourably for the company."
+  },
+  {
+    "id": 387,
+    "word": "terminally",
+    "type": "adverb",
+    "translation": "son olarak, ölümcül olarak",
+    "sentence": "Arsenal's loss has terminally damaged their title bid."
+  },
+  {
+    "id": 388,
+    "word": "condense",
+    "type": "verb",
+    "translation": "yoğunlaştırmak, yoğunlaşmak, koyulaşmak, sıkıştırmak, özetlemek",
+    "sentence": "I condensed ten pages of comments into two."
+  },
+  {
+    "id": 389,
+    "word": "juncture",
+    "type": "noun",
+    "translation": "birleşme, önemli an, nazik durum",
+    "sentence": "It is difficult to say at this juncture whether this upturn can be sustained."
+  },
+  {
+    "id": 390,
+    "word": "uproot",
+    "type": "verb",
+    "translation": "kökünden kazımak, kökünden sökmek, uzaklaştırmak",
+    "sentence": "The elephant's trunk is powerful enough to uproot trees."
+  },
+  {
+    "id": 391,
+    "word": "revolt",
+    "type": "verb",
+    "translation": "ayaklanmak, isyan etmek",
+    "sentence": "The people revolted and had to be suppressed."
+  },
+  {
+    "id": 392,
+    "word": "revolve",
+    "type": "verb",
+    "translation": "dönmek",
+    "sentence": "Overhead, the fan revolved slowly."
+  },
+  {
+    "id": 393,
+    "word": "prejudice",
+    "type": "noun",
+    "translation": "ön yargı, peşin hüküm, zarar",
+    "sentence": "He has a prejudice against women doctors."
+  },
+  {
+    "id": 394,
+    "word": "disclosure",
+    "type": "noun",
+    "translation": "ifşa, açığa vurma, ortaya çıkarma",
+    "sentence": "A judge ordered the disclosure of the government documents."
+  },
+  {
+    "id": 395,
+    "word": "curt",
+    "type": "adjective",
+    "translation": "kaba, kısa, ters",
+    "sentence": "His reply was curt."
+  },
+  {
+    "id": 396,
+    "word": "punctual",
+    "type": "adjective",
+    "translation": "dakik",
+    "sentence": "He's the sort of man who is always punctual."
+  },
+  {
+    "id": 397,
+    "word": "fiercely",
+    "type": "adverb",
+    "translation": "şiddetle, kıyasıya",
+    "sentence": "The army clashed fiercely with militants."
+  },
+  {
+    "id": 398,
+    "word": "quench",
+    "type": "verb",
+    "translation": "gidermek, söndürmek, dindirmek, su vermek",
+    "sentence": "He no longer quenches his thirst by drinking sodas."
+  },
+  {
+    "id": 399,
+    "word": "inhabit",
+    "type": "verb",
+    "translation": "yaşamak, oturmak",
+    "sentence": "A bird that inhabits North America."
+  },
+  {
+    "id": 400,
+    "word": "fallacy",
+    "type": "noun",
+    "translation": "safsata, yanlış, mantıksız",
+    "sentence": "The notion that the camera never lies is a fallacy."
+  },
+  {
+    "id": 401,
+    "word": "auxiliary",
+    "type": "adjective",
+    "translation": "yedek, yardımcı, destek",
+    "sentence": "The ship has an auxiliary power source."
+  },
+  {
+    "id": 402,
+    "word": "pensively",
+    "type": "adverb",
+    "translation": "dalgın, kös kös",
+    "sentence": "He studied his smoked-salmon starter pensively."
+  },
+  {
+    "id": 403,
+    "word": "excel",
+    "type": "verb",
+    "translation": "sivrilmek, üstün olmak, gölgede bırakmak",
+    "sentence": "As a child he excelled at music and art."
+  },
+  {
+    "id": 404,
+    "word": "usher",
+    "type": "noun | verb",
+    "translation": "(noun) yer gösterici, gözcü, mübaşir, yardımcı öğretmen - (verb) getirmek götürmek, yer göstermek",
+    "sentence": "He ushered me to the hall."
+  },
+  {
+    "id": 405,
+    "word": "cherish",
+    "type": "verb",
+    "translation": "şefkat göstermek, beslemek, aziz tutmak, sevgi ile muamele etmek",
+    "sentence": "Children need to be cherished."
+  },
+  {
+    "id": 406,
+    "word": "compel",
+    "type": "verb",
+    "translation": "zorlamak, mecbur etmek",
+    "sentence": "The court has powers to compel witnesses to attend."
+  },
+  {
+    "id": 407,
+    "word": "afflict",
+    "type": "verb",
+    "translation": "eziyet vermek, acı vermek, üzmek, sarsmak",
+    "sentence": "There are many problems that afflict the unemployed."
+  },
+  {
+    "id": 408,
+    "word": "batter",
+    "type": "verb",
+    "translation": "hırpalamak, yıpranmak",
+    "sentence": "She battered at the door with her fists."
+  },
+  {
+    "id": 409,
+    "word": "curtail",
+    "type": "verb",
+    "translation": "kısaltmak, kısmak, düşürmek",
+    "sentence": "Spending on books has been severely curtailed."
+  },
+  {
+    "id": 410,
+    "word": "enthral",
+    "type": "verb",
+    "translation": "büyülenmek, etkilemek, esir etmek",
+    "sentence": "This book will enthral readers of all ages."
+  },
+  {
+    "id": 411,
+    "word": "prevail",
+    "type": "verb",
+    "translation": "yenmek, galip gelmek, yürürlükte olmak, hüküm sürmek, geçerli olmak",
+    "sentence": "Those beliefs still prevail among ceratin social groups."
+  },
+  {
+    "id": 412,
+    "word": "besiege",
+    "type": "verb",
+    "translation": "kuşatmak, sıkıştırmak, yağmura tutmak",
+    "sentence": "Paris was besieged for four months and forced to surrender."
+  },
+  {
+    "id": 413,
+    "word": "entice",
+    "type": "verb",
+    "translation": "ikna etmek, ayartmak, kandırmak, baştan çıkartmak",
+    "sentence": "The bargain prices are expected to entice customers away from other stores."
+  },
+  {
+    "id": 414,
+    "word": "propagate",
+    "type": "verb",
+    "translation": "yaymak, üretmek, yavrulamak, propaganda etmek, bulaştırmak",
+    "sentence": "Television advertising propagates a false image of the ideal family."
+  },
+  {
+    "id": 415,
+    "word": "exempt",
+    "type": "adjective",
+    "translation": "muaf, serbest, özgür, çürüğe çıkarmak",
+    "sentence": "Some students are exempt from certain exams."
+  },
+  {
+    "id": 416,
+    "word": "allot",
+    "type": "verb",
+    "translation": "ayırmak, bölüştürmek, hisselere ayırmak, tahsis etmek, kura ile belirlemek",
+    "sentence": "I completed the test within the time alloted."
+  },
+  {
+    "id": 417,
+    "word": "dilute",
+    "type": "adjective",
+    "translation": "seyreltik, sulandırılmış, etkisi azalmış",
+    "sentence": "The paint can be diluted with water to make a lighter shade."
+  },
+  {
+    "id": 418,
+    "word": "excrete",
+    "type": "verb | noun",
+    "translation": "(verb) salgılamak, çıkartmak, boşaltmak - (noun) atık",
+    "sentence": "The act of discharging or excreting from the body waste products that arise as a result of metabolic activity."
+  },
+  {
+    "id": 419,
+    "word": "mobilize",
+    "type": "verb",
+    "translation": "seferber etmek, hareketlendirmek",
+    "sentence": "They successfully mobilized public opinion against him."
+  },
+  {
+    "id": 420,
+    "word": "leave out",
+    "type": "phrasal verb",
+    "translation": "(hariç) bırakmak",
+    "sentence": "As you are moving in to a new house, you should leave out old and worn furnitures."
+  },
+  {
+    "id": 421,
+    "word": "put off",
+    "type": "phrasal verb",
+    "translation": "ertelemek",
+    "sentence": "We had to put off the meeting because of the storm."
+  },
+  {
+    "id": 422,
+    "word": "go off",
+    "type": "phrasal verb",
+    "translation": "(çıkıp) gitmek",
+    "sentence": "Marry said she has to go off immediately because she never loved farewells."
+  },
+  {
+    "id": 423,
+    "word": "chop off",
+    "type": "phrasal verb",
+    "translation": "budamak kesmek",
+    "sentence": "Tom chopped off wood for the fireplace."
+  },
+  {
+    "id": 424,
+    "word": "come about",
+    "type": "phrasal verb",
+    "translation": "meydana gelmek",
+    "sentence": "I wonder how railway accident came about."
+  },
+  {
+    "id": 425,
+    "word": "grow out of",
+    "type": "phrasal verb",
+    "translation": "büyüyüp bir alışkanlığı bırakmak",
+    "sentence": "Children grow out of wetting the bed by 10 years old."
+  },
+  {
+    "id": 426,
+    "word": "put up with",
+    "type": "phrasal verb",
+    "translation": "katlanmak",
+    "sentence": "Do you mind if I close the window? I can't put up with the noise any longer."
+  },
+  {
+    "id": 427,
+    "word": "deal in",
+    "type": "phrasal verb",
+    "translation": "alıp satmak, ticaretini yapmak",
+    "sentence": "They deal in silk good."
+  },
+  {
+    "id": 428,
+    "word": "bring about",
+    "type": "phrasal verb",
+    "translation": "sebep olmak",
+    "sentence": "A nuclear war will bring about the destruction of mankind."
+  },
+  {
+    "id": 429,
+    "word": "comply with",
+    "type": "phrasal verb",
+    "translation": "uymak",
+    "sentence": "The workers resigned one by one because none of them wanted to comply with the boss' request."
+  },
+  {
+    "id": 430,
+    "word": "back down",
+    "type": "phrasal verb",
+    "translation": "sözünden dönmek, vazgeçmek, dönmek",
+    "sentence": "We will never back down from our seek of peace."
+  },
+  {
+    "id": 431,
+    "word": "take into account",
+    "type": "phrasal verb",
+    "translation": "düşünmek, hesaplamak, göz önünde bulundurmak",
+    "sentence": "When planning a vacation, we should take into account all the family wishes."
+  },
+  {
+    "id": 432,
+    "word": "act up",
+    "type": "phrasal verb",
+    "translation": "yaramazlık yapmak",
+    "sentence": "I hope my cat won't act up when I leave home."
+  },
+  {
+    "id": 433,
+    "word": "wait on",
+    "type": "phrasal verb",
+    "translation": "hizmet etmek",
+    "sentence": "He is so rich that he has three servants to wait on him."
+  },
+  {
+    "id": 434,
+    "word": "wave off",
+    "type": "phrasal verb",
+    "translation": "pas geçmek",
+    "sentence": "The bus driver waved us off and refused to stop."
+  },
+  {
+    "id": 435,
+    "word": "spring up",
+    "type": "phrasal verb",
+    "translation": "türemek",
+    "sentence": "Shopping malls are springing up everywhere lately."
+  },
+  {
+    "id": 436,
+    "word": "step down",
+    "type": "phrasal verb",
+    "translation": "istifa etmek, emekliye ayrılmak",
+    "sentence": "My father is dreaming of stepping down on doing gardening."
+  },
+  {
+    "id": 437,
+    "word": "embark on",
+    "type": "phrasal verb",
+    "translation": "başlamak",
+    "sentence": "When you're holding a book, you should know that you're eabout to embark on a journey."
+  },
+  {
+    "id": 438,
+    "word": "work out",
+    "type": "phrasal verb",
+    "translation": "çözmek",
+    "sentence": "I'm thinking for hours to work out this problem."
+  },
+  {
+    "id": 439,
+    "word": "give in",
+    "type": "phrasal verb",
+    "translation": "pes etmek",
+    "sentence": "When life gets too difficult, never give in."
+  },
+  {
+    "id": 440,
+    "word": "let off",
+    "type": "phrasal verb",
+    "translation": "serbest bırakmak",
+    "sentence": "The judge let off Jerry immediately afterwards he understood there was a midunderstanding."
+  },
+  {
+    "id": 441,
+    "word": "lay down",
+    "type": "phrasal verb",
+    "translation": "indirmek",
+    "sentence": "I won't lay down my blade until you lay down your blade."
+  },
+  {
+    "id": 442,
+    "word": "bear out",
+    "type": "phrasal verb",
+    "translation": "desteklemek",
+    "sentence": "Even though you were lying all this time, I was always there to bear you out."
+  },
+  {
+    "id": 443,
+    "word": "add up to",
+    "type": "phrasal verb",
+    "translation": "tutmak, göstermek",
+    "sentence": "All your clothes add up to 540 dollars."
+  },
+  {
+    "id": 444,
+    "word": "date back",
+    "type": "phrasal verb",
+    "translation": "geçmişe dayanmak",
+    "sentence": "Our tradition which is so similar to feasts dates back to my great grand parent' century."
+  },
+  {
+    "id": 445,
+    "word": "fed up with",
+    "type": "phrasal verb",
+    "translation": "bıkmak",
+    "sentence": "I'm fed up with my bigger son's childish behaviors."
+  },
+  {
+    "id": 446,
+    "word": "blow out",
+    "type": "phrasal verb",
+    "translation": "söndürmek",
+    "sentence": "When we blew out all the candles, everyone in the room applauded us to celebrate our new year in the firm."
+  },
+  {
+    "id": 447,
+    "word": "send for",
+    "type": "phrasal verb",
+    "translation": "çağırtmak",
+    "sentence": "Daniel send for all his children around the world to the family meeting."
+  },
+  {
+    "id": 448,
+    "word": "act up",
+    "type": "phrasal verb",
+    "translation": "sorun çıkarmak",
+    "sentence": "My old car acts up every morning like I'm never late for work."
+  },
+  {
+    "id": 449,
+    "word": "do away with",
+    "type": "phrasal verb",
+    "translation": "ortadan kaldırmak",
+    "sentence": "I'm in favor of doing away with violance to women."
+  },
+  {
+    "id": 450,
+    "word": "drop out of",
+    "type": "phrasal verb",
+    "translation": "bırakmak",
+    "sentence": "Last night in the match the goalkeeper hurt his leg and had to drop out of the game."
+  },
+  {
+    "id": 451,
+    "word": "drop off",
+    "type": "phrasal verb",
+    "translation": "uyuyakalmak",
+    "sentence": "My cat loves dropping off especially into the fire especially in the winter nights."
+  },
+  {
+    "id": 452,
+    "word": "knock off",
+    "type": "phrasal verb",
+    "translation": "işi durdurmak, paydos etmek",
+    "sentence": "Workers knock off their hard work at 6 everyday."
+  },
+  {
+    "id": 453,
+    "word": "lay aside",
+    "type": "phrasal verb",
+    "translation": "bir kenara koymak",
+    "sentence": "Let's lay aside this problem and think more positively."
+  },
+  {
+    "id": 454,
+    "word": "lay off",
+    "type": "phrasal verb",
+    "translation": "bir şeyi yapmayı bırakmak",
+    "sentence": "At last Carol laid off her drug habits."
+  },
+  {
+    "id": 455,
+    "word": "make for",
+    "type": "phrasal verb",
+    "translation": "-e neden olmak",
+    "sentence": "Our teacher who made for us to come this chool, is going to work as a volunteer in Bangladesh."
+  },
+  {
+    "id": 456,
+    "word": "wear out",
+    "type": "phrasal verb",
+    "translation": "yıpratmak",
+    "sentence": "I have worn out all my jeans, we ought to go shopping immediately."
+  },
+  {
+    "id": 457,
+    "word": "build in",
+    "type": "phrasal verb",
+    "translation": "dahil etmek",
+    "sentence": "I hope you can still build the shelves in my new decorations."
+  },
+  {
+    "id": 458,
+    "word": "clear away",
+    "type": "phrasal verb",
+    "translation": "kaçmak, sıvışmak",
+    "sentence": "As soon as I saw the police I cleared away."
+  },
+  {
+    "id": 459,
+    "word": "crack down on",
+    "type": "phrasal verb",
+    "translation": "son vermek için bir şeyin üzerine gitmek",
+    "sentence": "I finally cracked down on him to quit his lying habits."
+  },
+  {
+    "id": 460,
+    "word": "tick off",
+    "type": "phrasal verb",
+    "translation": "işaretlemek",
+    "sentence": "The headmaster ticked off all lazy students names to keep them out of school."
+  },
+  {
+    "id": 461,
+    "word": "by all accounts",
+    "type": "",
+    "translation": "denilene göre, söylentilere göre",
+    "sentence": "By all accounts the parity was a great success."
+  },
+  {
+    "id": 462,
+    "word": "in a flash",
+    "type": "",
+    "translation": "hemencecik, ansızın",
+    "sentence": "Call us if you have any problems, we'll be back in a flash."
+  },
+  {
+    "id": 463,
+    "word": "to an extent",
+    "type": "",
+    "translation": "bir ölçüde, bir dereceye kadar",
+    "sentence": "Our administration is willing to negotiate to an extent, bu we can't make any significant changes on our deal."
+  },
+  {
+    "id": 464,
+    "word": "with an eye to",
+    "type": "",
+    "translation": "niyetiyle, göz koyayrak",
+    "sentence": "She's having a translation course with an eye to getting a job abroad."
+  },
+  {
+    "id": 465,
+    "word": "within earshot",
+    "type": "",
+    "translation": "duyma uzaklığında, burnunun dibinde, yakında",
+    "sentence": "As she came within earshot of the group, she heard her name mentioned."
+  },
+  {
+    "id": 466,
+    "word": "without a hitch",
+    "type": "",
+    "translation": "bir aksilik olmadan, sorunsuzca",
+    "sentence": "We managed to sneak into the house without a hitch."
+  },
+  {
+    "id": 467,
+    "word": "in accordance with",
+    "type": "",
+    "translation": "göre, uygun olarak, ile uyumlu",
+    "sentence": "Orders will be given in accordance with the enemy's movement."
+  },
+  {
+    "id": 468,
+    "word": "on impulse",
+    "type": "",
+    "translation": "gayri ihtiyari, iç güdüsel, bir anda",
+    "sentence": "On an impulse, he turned back and looked at his family one last time."
+  },
+  {
+    "id": 469,
+    "word": "within grasp",
+    "type": "",
+    "translation": "ulaşılabilir, elde edilebilir, yakında",
+    "sentence": "Victory is within our grasp."
+  },
+  {
+    "id": 470,
+    "word": "without precedent",
+    "type": "",
+    "translation": "emsalsiz, benzersiz",
+    "sentence": "They assume their work is without precedent."
+  },
+  {
+    "id": 471,
+    "word": "at this juncture",
+    "type": "",
+    "translation": "bu noktada, yeri gelmişken",
+    "sentence": "At this juncture, we can't continue doing this project."
+  },
+  {
+    "id": 472,
+    "word": "at a moment's notice",
+    "type": "",
+    "translation": "birden bire, apar topar",
+    "sentence": "Do you expect me to make a presentation at a moment's notice?"
+  },
+  {
+    "id": 473,
+    "word": "by dint of",
+    "type": "",
+    "translation": "sayesinde, aracılığıyla",
+    "sentence": "Art can't be done by dint of education."
+  },
+  {
+    "id": 474,
+    "word": "for lack of",
+    "type": "",
+    "translation": "yokluğundan, yetersizliğinden",
+    "sentence": "We have to throw out the case for lack of evidence."
+  },
+  {
+    "id": 475,
+    "word": "out of spite",
+    "type": "",
+    "translation": "inadına, nispet için",
+    "sentence": "Tearing your sister's dress out of spite was very ill-considered of you."
+  },
+  {
+    "id": 476,
+    "word": "under strain",
+    "type": "",
+    "translation": "stres altında",
+    "sentence": "Working under strain kills productivity."
+  },
+  {
+    "id": 477,
+    "word": "without respite",
+    "type": "",
+    "translation": "nefessiz, soluk aldırmadan",
+    "sentence": "The cruel boss used to make us work without respite."
+  },
+  {
+    "id": 478,
+    "word": "by virtue of",
+    "type": "",
+    "translation": "yüzünden, dolayı, binaen",
+    "sentence": "You can easily get a promotion by the virtue of your hard work."
+  },
+  {
+    "id": 479,
+    "word": "by my watch",
+    "type": "",
+    "translation": "bana göre, bence, benim açımdan",
+    "sentence": "Try to look at this situation by my watch."
+  },
+  {
+    "id": 480,
+    "word": "in its infancy",
+    "type": "",
+    "translation": "emekleme çağında, gelişme döneminde",
+    "sentence": "Turkish movie industry is in its infancy."
+  },
+  {
+    "id": 481,
+    "word": "on the verge of",
+    "type": "",
+    "translation": "eşiğinde, sınırında, üzere",
+    "sentence": "The singer was on the verge of crying on the stage."
+  },
+  {
+    "id": 482,
+    "word": "out of step with",
+    "type": "",
+    "translation": "ayak uyduramamak",
+    "sentence": "No matter how hard the baby tried, he was out of step with his sister."
+  },
+  {
+    "id": 483,
+    "word": "without foundation",
+    "type": "",
+    "translation": "asılsız, temelsiz, boş",
+    "sentence": "You can't expect us to believe these accusations without foundation."
+  },
+  {
+    "id": 484,
+    "word": "in conjunction with",
+    "type": "",
+    "translation": "ile bir arada, beraber",
+    "sentence": "The accused explained how they worked in conjunction with the police."
+  },
+  {
+    "id": 485,
+    "word": "in haste",
+    "type": "",
+    "translation": "aceleyle, telaşla",
+    "sentence": "It is very important that decisions are not taken in haste."
+  },
+  {
+    "id": 486,
+    "word": "in retrospect",
+    "type": "",
+    "translation": "geriye bakarak, geçmişe bakıldığında",
+    "sentence": "In retrospect, I think I probably should have worked harder in school."
   }
 ]
