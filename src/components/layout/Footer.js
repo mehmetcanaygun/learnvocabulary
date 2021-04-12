@@ -11,6 +11,14 @@ const Footer = ({ activeLink }) => {
           <i className="fas fa-play"></i>
         </Link>
       </div>
+      <a
+        href="https://mehmetcanaygun.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="author-logo"
+      >
+        <img src="/data/sayfa-logo-ters.jpg" />
+      </a>
       <div>
         <Link
           to="/kelimeler"
