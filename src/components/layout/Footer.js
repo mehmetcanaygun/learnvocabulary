@@ -17,7 +17,7 @@ const Footer = ({ activeLink }) => {
         rel="noopener noreferrer"
         className="author-logo"
       >
-        <img src="/data/sayfa-logo-ters.jpg" />
+        <img src="/data/sayfa-logo-ters.jpg" alt="author link" />
       </a>
       <div>
         <Link
